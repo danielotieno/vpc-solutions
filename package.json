@@ -1,0 +1,28 @@
+{
+  "name": "vpc-solutions",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-accessible-accordion": "^3.3.5",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.12.2",
+    "react-modal-video": "^1.2.8",
+    "react-owl-carousel3": "^2.2.5",
+    "sass": "^1.37.2",
+    "sweetalert2": "^11.1.0",
+    "sweetalert2-react-content": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.0.1"
+  }
+}
