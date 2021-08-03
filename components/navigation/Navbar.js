@@ -35,7 +35,7 @@ const Navbar = () => {
       <header className='header-area fixed-top'>
         <TopNavbar />
 
-        <div className='nav-area'>
+        <div className='nav-area four'>
           <div id='navbar' className='navbar-area'>
             <div className='main-nav'>
               <nav className='navbar navbar-expand-md navbar-light'>

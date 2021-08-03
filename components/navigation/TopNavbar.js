@@ -18,9 +18,9 @@ const TopNavbar = () => {
                 </a>
               </li>
               <li>
-                <a href='mailto:hello@info.com'>
+                <a href='mailto:david.maguire@vpc-solutions.com'>
                   <i className='bx bxs-paper-plane'></i>
-                  Email: david.maguire@vpc-solutions.com
+                  Email: click to send
                 </a>
               </li>
             </ul>
