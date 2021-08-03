@@ -1,9 +1,13 @@
 import React from 'react';
+import GoTop from './GoTop';
+import Navbar from './Navbar';
 
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <>
-      <TopNavbar />
+      <Navbar />
+      <main>{children}</main>
+      <GoTop scrollStepInPx='100' delayInMs='10.50' />
     </>
   );
 };
