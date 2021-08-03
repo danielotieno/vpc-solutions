@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import BannerImg from '../../public/banner-img.png';
+import BgImage from '../../public/home-four-shape-1.png';
 import Homeshape from '../../public/home-one-shape.png';
 
 const MainBanner = () => {
@@ -62,12 +63,7 @@ const MainBanner = () => {
                     delay={50}
                     animateOnce={true}>
                     <div className='banner-img'>
-                      <Image
-                        src={BannerImg}
-                        width={615}
-                        height={785}
-                        alt='Image'
-                      />
+                      <Image src={BannerImg} layout='fill' alt='Image' />
                     </div>
                   </ScrollAnimation>
 
@@ -82,7 +78,7 @@ const MainBanner = () => {
       </div>
 
       <div className='shape'>
-        <img src='/img/home-four/home-four-shape-1.png' alt='Image' />
+        <Image src={BgImage} width={1040} height={653} alt='Image' />
       </div>
     </div>
   );
