@@ -38,7 +38,8 @@ const MainBanner = () => {
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua gravida. Risus commodo.
+                      aliqua gravida. Risus commodo aliqua gravida Risus
+                      commodo.
                     </p>
                   </ScrollAnimation>
 
@@ -47,8 +48,8 @@ const MainBanner = () => {
                     delay={50}
                     animateOnce={true}>
                     <div className='banner-btn'>
-                      <Link href='/appointment'>
-                        <a className='default-btn'>Find Out More</a>
+                      <Link href='/' passHref>
+                        <a className='default-btn'>Get Started</a>
                       </Link>
                     </div>
                   </ScrollAnimation>
@@ -57,15 +58,6 @@ const MainBanner = () => {
 
               <div className='col-lg-5 pr-0'>
                 <div className='banner-img-wrap'>
-                  {/* <ScrollAnimation
-                    animateIn='fadeInUp'
-                    delay={50}
-                    animateOnce={true}>
-                    <div className='banner-img'>
-                      <Image src={Homeshape} layout='responsive' alt='Image' />
-                    </div>
-                  </ScrollAnimation> */}
-
                   <div className='shape'>
                     <Image
                       src={BgBanner}
