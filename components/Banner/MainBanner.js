@@ -2,9 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
-import BannerImg from '../../public/banner-img.png';
+import BgBanner from '../../public/banner-img.png';
 import BgImage from '../../public/home-four-shape-1.png';
-import Homeshape from '../../public/home-one-shape.png';
 
 const MainBanner = () => {
   return (
@@ -58,17 +57,22 @@ const MainBanner = () => {
 
               <div className='col-lg-5 pr-0'>
                 <div className='banner-img-wrap'>
-                  <ScrollAnimation
+                  {/* <ScrollAnimation
                     animateIn='fadeInUp'
                     delay={50}
                     animateOnce={true}>
                     <div className='banner-img'>
-                      <Image src={BannerImg} layout='fill' alt='Image' />
+                      <Image src={Homeshape} layout='responsive' alt='Image' />
                     </div>
-                  </ScrollAnimation>
+                  </ScrollAnimation> */}
 
-                  <div className='banner-shape'>
-                    <Image src={Homeshape} layout='responsive' alt='Imags' />
+                  <div className='shape'>
+                    <Image
+                      src={BgBanner}
+                      width={450}
+                      height={550}
+                      alt='Analytics'
+                    />
                   </div>
                 </div>
               </div>
