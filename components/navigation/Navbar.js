@@ -68,23 +68,11 @@ const Navbar = () => {
                   <div className={classOne} id='navbarSupportedContent'>
                     <ul className='navbar-nav m-auto'>
                       <li className='nav-item'>
-                        <Link href='/#' activeClassName='active'>
-                          <a
-                            onClick={(e) => e.preventDefault()}
-                            className='nav-link'>
-                            Home <i className='bx bx-plus'></i>
+                        <Link href='/' activeClassName='active'>
+                          <a onClick={toggleNavbar} className='nav-link'>
+                            Home
                           </a>
                         </Link>
-
-                        <ul className='dropdown-menu'>
-                          <li className='nav-item'>
-                            <Link href='/' activeClassName='active'>
-                              <a onClick={toggleNavbar} className='nav-link'>
-                                Home 1 (Emergency Medical Clinic)
-                              </a>
-                            </Link>
-                          </li>
-                        </ul>
                       </li>
 
                       <li className='nav-item'>
@@ -100,7 +88,7 @@ const Navbar = () => {
                           <a
                             onClick={(e) => e.preventDefault()}
                             className='nav-link'>
-                            Pages <i className='bx bx-plus'></i>
+                            Services <i className='bx bx-plus'></i>
                           </a>
                         </Link>
 
@@ -110,7 +98,60 @@ const Navbar = () => {
                               <a
                                 onClick={(e) => e.preventDefault()}
                                 className='nav-link'>
-                                User <i className='bx bx-plus'></i>
+                                Data Analytics <i className='bx bx-plus'></i>
+                              </a>
+                            </Link>
+
+                            <ul className='dropdown-menu'>
+                              <li className='nav-item'>
+                                <Link href='/#' activeClassName='active'>
+                                  <a
+                                    onClick={toggleNavbar}
+                                    className='nav-link'>
+                                    Data Management
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className='nav-item'>
+                                <Link href='/#' activeClassName='active'>
+                                  <a
+                                    onClick={toggleNavbar}
+                                    className='nav-link'>
+                                    Data Preparation
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className='nav-item'>
+                                <Link href='/#' activeClassName='active'>
+                                  <a
+                                    onClick={toggleNavbar}
+                                    className='nav-link'>
+                                    Data Warehouse Automation
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className='nav-item'>
+                                <Link href='/#' activeClassName='active'>
+                                  <a
+                                    onClick={toggleNavbar}
+                                    className='nav-link'>
+                                    Data Visualisation
+                                  </a>
+                                </Link>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li className='nav-item'>
+                            <Link href='/#'>
+                              <a
+                                onClick={(e) => e.preventDefault()}
+                                className='nav-link'>
+                                Cloud Infrastructure{' '}
+                                <i className='bx bx-plus'></i>
                               </a>
                             </Link>
 
@@ -138,55 +179,36 @@ const Navbar = () => {
                           </li>
 
                           <li className='nav-item'>
-                            <Link href='/coming-soon' activeClassName='active'>
-                              <a onClick={toggleNavbar} className='nav-link'>
-                                Coming Soon
+                            <Link href='/#'>
+                              <a
+                                onClick={(e) => e.preventDefault()}
+                                className='nav-link'>
+                                Consultancy & IT Services{' '}
+                                <i className='bx bx-plus'></i>
                               </a>
                             </Link>
-                          </li>
 
-                          <li className='nav-item'>
-                            <Link href='/404' activeClassName='active'>
-                              <a onClick={toggleNavbar} className='nav-link'>
-                                404 Error Page
-                              </a>
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
+                            <ul className='dropdown-menu'>
+                              <li className='nav-item'>
+                                <Link href='/sign-in' activeClassName='active'>
+                                  <a
+                                    onClick={toggleNavbar}
+                                    className='nav-link'>
+                                    Sign In
+                                  </a>
+                                </Link>
+                              </li>
 
-                      <li className='nav-item'>
-                        <Link href='/#'>
-                          <a
-                            onClick={(e) => e.preventDefault()}
-                            className='nav-link'>
-                            Services <i className='bx bx-plus'></i>
-                          </a>
-                        </Link>
-
-                        <ul className='dropdown-menu'>
-                          <li className='nav-item'>
-                            <Link href='/services-1' activeClassName='active'>
-                              <a onClick={toggleNavbar} className='nav-link'>
-                                Services Style One
-                              </a>
-                            </Link>
-                          </li>
-
-                          <li className='nav-item'>
-                            <Link href='/services-2' activeClassName='active'>
-                              <a onClick={toggleNavbar} className='nav-link'>
-                                Services Style Two
-                              </a>
-                            </Link>
-                          </li>
-
-                          <li className='nav-item'>
-                            <Link href='/services-3' activeClassName='active'>
-                              <a onClick={toggleNavbar} className='nav-link'>
-                                Services Style Three
-                              </a>
-                            </Link>
+                              <li className='nav-item'>
+                                <Link href='/sign-up' activeClassName='active'>
+                                  <a
+                                    onClick={toggleNavbar}
+                                    className='nav-link'>
+                                    Sign Up
+                                  </a>
+                                </Link>
+                              </li>
+                            </ul>
                           </li>
                         </ul>
                       </li>
