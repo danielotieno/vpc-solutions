@@ -76,14 +76,6 @@ const Navbar = () => {
                       </li>
 
                       <li className='nav-item'>
-                        <Link href='/about' activeClassName='active'>
-                          <a onClick={toggleNavbar} className='nav-link'>
-                            About
-                          </a>
-                        </Link>
-                      </li>
-
-                      <li className='nav-item'>
                         <Link href='/#'>
                           <a
                             onClick={(e) => e.preventDefault()}
