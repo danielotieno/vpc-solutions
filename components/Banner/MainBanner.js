@@ -49,7 +49,7 @@ const MainBanner = () => {
                     animateOnce={true}>
                     <div className='banner-btn'>
                       <Link href='/' passHref>
-                        <a className='default-btn'>Get Started</a>
+                        <a className='default-btn'>Book An Appointment</a>
                       </Link>
                     </div>
                   </ScrollAnimation>

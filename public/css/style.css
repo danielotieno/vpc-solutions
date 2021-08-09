@@ -524,11 +524,11 @@ Nav Area Style
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
   font-weight: 600;
-  font-size: 17px;
+  font-size: 15px;
   color: #ffffff;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  margin: 0 20px;
+  margin: 0 10px;
   padding: 0;
   position: relative;
 }
