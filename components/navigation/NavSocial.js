@@ -38,11 +38,11 @@ export default class NavSocial extends Component {
     return (
       <>
         {is_visible && (
-          <div className='nav-side-social'>
-            <TwitterIcon size={50} round={true} />
-            <LinkedinIcon size={50} round={true} />
-            <EmailIcon size={50} round={true} />
-            <FacebookIcon size={50} round={true} />
+          <div className='nav-side-social d-none d-lg-block'>
+            <TwitterIcon size={48} round={true} />
+            <LinkedinIcon size={48} round={true} />
+            <EmailIcon size={48} round={true} />
+            <FacebookIcon size={48} round={true} />
           </div>
         )}
       </>
