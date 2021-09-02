@@ -5343,7 +5343,6 @@ Professionals Area Style
     text-align: left;
     .right {
       display: inline-block;
-      float: right;
     }
     span {
       i {
@@ -6668,4 +6667,23 @@ Page-navigation Area Style*/
 }
 .invalid-feedback {
   font-size: 14px;
+}
+
+/*
+
+Side social icons
+
+*/
+.nav-side-social {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  cursor: pointer;
+  bottom: 100px;
+  left: 8px;
+  z-index: 4;
+  width: 40px;
+  text-align: center;
+  transition: 0.9s;
 }

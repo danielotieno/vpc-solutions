@@ -6182,7 +6182,6 @@ Professionals Area Style
 
 .single-professionals .location .right {
   display: inline-block;
-  float: right;
 }
 
 .single-professionals .location span i {
@@ -7705,5 +7704,30 @@ Page-navigation Area Style*/
 
 .invalid-feedback {
   font-size: 14px;
+}
+
+/*
+
+Side social icons
+
+*/
+.nav-side-social {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  cursor: pointer;
+  bottom: 100px;
+  left: 8px;
+  z-index: 4;
+  width: 40px;
+  text-align: center;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
 }
 /*# sourceMappingURL=style.css.map */

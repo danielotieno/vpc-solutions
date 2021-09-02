@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const TopNavbar = () => {
@@ -8,20 +9,12 @@ const TopNavbar = () => {
           <div className='col-lg-8 col-md-9 col-sm-6'>
             <ul className='header-content-left'>
               <li>
-                <i className='bx bx-time'></i>
-                Mon-Fri 9am-5pm
-              </li>
-              <li>
-                <a href='tel:+822456974'>
-                  <i className='bx bx-phone-call'></i>
-                  Call Us: +353 85 850 0314
-                </a>
-              </li>
-              <li>
-                <a href='mailto:david.maguire@vpc-solutions.com'>
-                  <i className='bx bxs-paper-plane'></i>
-                  Email: info@vpc-solutions.com
-                </a>
+                <Link href='/'>
+                  <a>
+                    <i className='bx bxs-badge-check'></i>
+                    ISO 9001 : 2015
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -108,7 +108,7 @@
     z-index: 1;
   }
   .first-facility-area::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: -150px;
@@ -118,7 +118,7 @@
     z-index: -1;
   }
   .first-facility-area::after {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     right: -150px;
@@ -277,6 +277,9 @@
     margin-bottom: 15px;
   }
   .go-top.active {
+    top: 85%;
+  }
+  .side-social.active {
     top: 85%;
   }
   .client-area.c-bg {
@@ -1223,7 +1226,7 @@
     z-index: 1;
   }
   .first-facility-area::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: -150px;
@@ -1233,7 +1236,7 @@
     z-index: -1;
   }
   .first-facility-area::after {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     right: -150px;
