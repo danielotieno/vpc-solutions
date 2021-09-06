@@ -32,15 +32,15 @@ const Navbar = () => {
 
   return (
     <>
-      <header className='header-area fixed-top'>
+      <header className='header-area'>
         <TopNavbar />
 
-        <div className='nav-area four'>
+        <div className='nav-area nav-area-seven'>
           <div id='navbar' className='navbar-area'>
             <div className='main-nav'>
               <nav className='navbar navbar-expand-md navbar-light'>
                 <div className='container'>
-                  <Link href='/' passHref>
+                  <Link href='/'>
                     <a onClick={toggleNavbar} className='navbar-brand'>
                       <Image
                         src={Logo}
@@ -76,9 +76,9 @@ const Navbar = () => {
                       </li>
 
                       <li className='nav-item'>
-                        <Link href='/'>
+                        <Link href='/about-us'>
                           <a onClick={toggleNavbar} className='nav-link'>
-                            About Us
+                            About
                           </a>
                         </Link>
                       </li>
@@ -88,7 +88,7 @@ const Navbar = () => {
                           <a
                             onClick={(e) => e.preventDefault()}
                             className='nav-link'>
-                            Data Analytics <i className='bx bx-plus'></i>
+                            Data Analytics
                           </a>
                         </Link>
 
@@ -98,7 +98,7 @@ const Navbar = () => {
                               <a
                                 onClick={(e) => e.preventDefault()}
                                 className='nav-link'>
-                                Data <i className='bx bx-plus'></i>
+                                Data
                               </a>
                             </Link>
 
@@ -146,7 +146,7 @@ const Navbar = () => {
                               <a
                                 onClick={(e) => e.preventDefault()}
                                 className='nav-link'>
-                                Analytics <i className='bx bx-plus'></i>
+                                Analytics
                               </a>
                             </Link>
 
@@ -187,8 +187,7 @@ const Navbar = () => {
                           <a
                             onClick={(e) => e.preventDefault()}
                             className='nav-link'>
-                            Consultancy & IT Services{' '}
-                            <i className='bx bx-plus'></i>
+                            Services
                           </a>
                         </Link>
 
@@ -216,45 +215,11 @@ const Navbar = () => {
                           </li>
                         </ul>
                       </li>
-                      <li className='nav-item'>
-                        <Link href='/#'>
-                          <a
-                            onClick={(e) => e.preventDefault()}
-                            className='nav-link'>
-                            Softwares <i className='bx bx-plus'></i>
-                          </a>
-                        </Link>
-
-                        <ul className='dropdown-menu'>
-                          <li className='nav-item'>
-                            <Link href='/#' activeClassName='active'>
-                              <a onClick={toggleNavbar} className='nav-link'>
-                                MS Power BI
-                              </a>
-                            </Link>
-                          </li>
-                          <li className='nav-item'>
-                            <Link href='/#' activeClassName='active'>
-                              <a onClick={toggleNavbar} className='nav-link'>
-                                Qlik
-                              </a>
-                            </Link>
-                          </li>
-
-                          <li className='nav-item'>
-                            <Link href='/#' activeClassName='active'>
-                              <a onClick={toggleNavbar} className='nav-link'>
-                                Tableau
-                              </a>
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
                     </ul>
 
                     <div className='others-option'>
                       <div className='subscribe'>
-                        <Link href='/#'>
+                        <Link href='/contact'>
                           <a className='default-btn'>Get In Touch</a>
                         </Link>
                       </div>

@@ -18,7 +18,7 @@ const TopNavbar = () => {
               </li>
             </ul>
           </div>
-          <div className='col-lg-4 col-md-3 col-sm-6'>
+          <div className='col-lg-4 col-md-3 col-sm-6 d-none d-md-block'>
             <ul className='header-content-right'>
               <li>
                 <a href='#' target='_blank'>
