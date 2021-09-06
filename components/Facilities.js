@@ -1,75 +1,51 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 
-const Facilities = () => {
+const Facility = () => {
   return (
-    <div className='second-facility-area three mt-100 pb-70'>
+    <div className='second-facility-area eight mt-100 pb-70'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-4 col-sm-6 p-0'>
+          <div className='col-lg-3 col-sm-6 p-0'>
             <div className='second-facility-item'>
-              <Image
-                src='/data-management.png'
-                width={60}
-                height={60}
-                alt='Image'
-              />
-              <h3>Data Management</h3>
+              <i className='bx bx-certification'></i>
+              <h3>ISO Certified</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore.
+                eiusmod tempor incididunt ut.
               </p>
-
-              <Link href='/'>
-                <a className='read-more'>
-                  Find Out More <i className='bx bx-plus'></i>
-                </a>
-              </Link>
             </div>
           </div>
 
-          <div className='col-lg-4 col-sm-6 p-0'>
+          <div className='col-lg-3 col-sm-6 p-0'>
             <div className='second-facility-item'>
-              <Image
-                src='/preparation.png'
-                width={60}
-                height={60}
-                alt='Image'
-              />
-              <h3>Data Preparation</h3>
+              <i className='bx bx-time'></i>
+              <h3>24/7 Flexible</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore.
+                eiusmod tempor incididunt ut.
               </p>
-
-              <Link href='/'>
-                <a className='read-more'>
-                  Find Out More <i className='bx bx-plus'></i>
-                </a>
-              </Link>
             </div>
           </div>
 
-          <div className='col-lg-4 col-sm-6 offset-sm-3 offset-lg-0 p-0'>
+          <div className='col-lg-3 col-sm-6 p-0'>
             <div className='second-facility-item'>
-              <Image
-                src='/data-visualization.png'
-                width={60}
-                height={60}
-                alt='Image'
-              />
-              <h3>Data Visualisation</h3>
+              <i className='bx bx-user'></i>
+              <h3>Professional Staff</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore.
+                eiusmod tempor incididunt ut.
               </p>
+            </div>
+          </div>
 
-              <Link href='/'>
-                <a className='read-more'>
-                  Find Out More <i className='bx bx-plus'></i>
-                </a>
-              </Link>
+          <div className='col-lg-3 col-sm-6 p-0'>
+            <div className='second-facility-item'>
+              <i className='bx bx-like'></i>
+              <h3>Fair Prices</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut.
+              </p>
             </div>
           </div>
         </div>
@@ -78,4 +54,4 @@ const Facilities = () => {
   );
 };
 
-export default Facilities;
+export default Facility;
