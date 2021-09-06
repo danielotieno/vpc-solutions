@@ -1,82 +1,167 @@
-import Image from 'next/image';
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
-import BgBanner from '../../public/banner-img.png';
-import BgImage from '../../public/home-four-shape-1.png';
+
+const OwlCarousel = dynamic(import('react-owl-carousel3'));
+
+const options = {
+  items: 1,
+  loop: true,
+  nav: false,
+  mouseDrag: true,
+  dots: true,
+  autoplay: true,
+  autoplayHoverPause: true,
+};
 
 const MainBanner = () => {
+  // Slider
+  const [display, setDisplay] = React.useState(false);
+
+  React.useEffect(() => {
+    setDisplay(true);
+  }, []);
+
   return (
-    <div className='main-banner-area-four'>
-      <div className='d-table'>
-        <div className='d-table-cell'>
-          <div className='container-fluid'>
-            <div className='row'>
-              <div className='col-lg-7'>
-                <div className='banner-text'>
-                  <ScrollAnimation
-                    animateIn='fadeInUp'
-                    delay={50}
-                    animateOnce={true}>
-                    <span>Value Proposition Consulting</span>
-                  </ScrollAnimation>
+    <>
+      <div className='hero-slider-area'>
+        {display ? (
+          <OwlCarousel
+            className='hero-slider-wrap owl-carousel owl-theme'
+            {...options}>
+            <div className='slider-item slider-item-bg-1'>
+              <div className='d-table'>
+                <div className='d-table-cell'>
+                  <div className='container'>
+                    <div className='row align-items-center'>
+                      <div className='col-lg-9'>
+                        <div className='slider-text one'>
+                          <span className='top-title'>
+                            Value Proposition Consulting
+                          </span>
+                          <h1>We architect intelligent IT strategies</h1>
+                          <p>
+                            We are a software development and consulting company
+                            that creates and transforms products and enterprises
+                            to drive growth.
+                          </p>
 
-                  <ScrollAnimation
-                    animateIn='fadeInUp'
-                    delay={50}
-                    animateOnce={true}>
-                    <h1>
-                      {' '}
-                      We architect intelligent IT strategies and solutions
-                    </h1>
-                  </ScrollAnimation>
+                          <div className='slider-btn'>
+                            <Link href='/contact-us'>
+                              <a className='default-btn'>Get In Touch</a>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
 
-                  <ScrollAnimation
-                    animateIn='fadeInUp'
-                    delay={50}
-                    animateOnce={true}>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua gravida. Risus commodo aliqua gravida Risus
-                      commodo.
-                    </p>
-                  </ScrollAnimation>
-
-                  <ScrollAnimation
-                    animateIn='fadeInUp'
-                    delay={50}
-                    animateOnce={true}>
-                    <div className='banner-btn'>
-                      <Link href='/' passHref>
-                        <a className='default-btn'>Book An Appointment</a>
-                      </Link>
+                      <div className='col-lg-3'></div>
                     </div>
-                  </ScrollAnimation>
-                </div>
-              </div>
-
-              <div className='col-lg-5 pr-0'>
-                <div className='banner-img-wrap'>
-                  <div className='shape'>
-                    <Image
-                      src={BgBanner}
-                      width={450}
-                      height={550}
-                      alt='Analytics'
-                    />
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <div className='shape'>
-        <Image src={BgImage} width={1040} height={653} alt='Image' />
+            <div className='slider-item slider-item-bg-2'>
+              <div className='d-table'>
+                <div className='d-table-cell'>
+                  <div className='container'>
+                    <div className='row align-items-center'>
+                      <div className='col-lg-9'>
+                        <div className='slider-text two'>
+                          <span className='top-title'>
+                            Value Proposition Consulting
+                          </span>
+                          <h1>Let's Make Something Good Together</h1>
+                          <p>
+                            Using a tech-agnostic approach, we provide the right
+                            blend of software and hardware solutions that let
+                            you capture the full value of tech.
+                          </p>
+
+                          <div className='slider-btn'>
+                            <Link href='/appointment'>
+                              <a className='default-btn'>Get In Touch</a>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className='col-lg-3'></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='slider-item slider-item-bg-3'>
+              <div className='d-table'>
+                <div className='d-table-cell'>
+                  <div className='container'>
+                    <div className='row align-items-center'>
+                      <div className='col-lg-9'>
+                        <div className='slider-text one'>
+                          <span className='top-title'>
+                            Value Proposition Consulting
+                          </span>
+                          <h1>You are unique. So we are</h1>
+                          <p>
+                            We think in terms of value, not technology. We deep
+                            dive into your business to deliver innovations
+                            tailored to your business needs.
+                          </p>
+
+                          <div className='slider-btn'>
+                            <Link href='/appointment'>
+                              <a className='default-btn'>Get In Touch</a>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className='col-lg-3'></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='slider-item slider-item-bg-4'>
+              <div className='d-table'>
+                <div className='d-table-cell'>
+                  <div className='container'>
+                    <div className='row align-items-center'>
+                      <div className='col-lg-9'>
+                        <div className='slider-text two'>
+                          <span className='top-title'>
+                            Value Proposition Consulting
+                          </span>
+                          <h1>You are unique. So we are</h1>
+                          <p>
+                            We think in terms of value, not technology. We deep
+                            dive into your business to deliver innovations
+                            tailored to your business needs.
+                          </p>
+
+                          <div className='slider-btn'>
+                            <Link href='/appointment'>
+                              <a className='default-btn'>Get In Touch</a>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className='col-lg-3'></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </OwlCarousel>
+        ) : (
+          ''
+        )}
       </div>
-    </div>
+    </>
   );
 };
 

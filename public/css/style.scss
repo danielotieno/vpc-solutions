@@ -4566,13 +4566,16 @@ Hero Slider Area Style
       z-index: -1;
     }
     &.slider-item-bg-1 {
-      background-image: url(../img/home-three/home-three-banner1.jpg);
+      background-image: url(../img/banner-image-6.jpg);
     }
     &.slider-item-bg-2 {
-      background-image: url(../img/home-three/home-three-banner2.jpg);
+      background-image: url(../img/banner-image-4.jpg);
     }
     &.slider-item-bg-3 {
-      background-image: url(../img/home-three/home-three-banner3.jpg);
+      background-image: url(../img/banner-image-6.jpg);
+    }
+    &.slider-item-bg-4 {
+      background-image: url(../img/banner-image-5.jpg);
     }
     .slider-text {
       position: relative;
@@ -6018,11 +6021,17 @@ Hero Slider Area Eight Style
     height: 100vh !important;
     position: relative;
     z-index: 1;
-    &.slider-item-bg-6 {
-      background-image: url(/img/home-eight/home-eight-banner1.jpg);
+    &.slider-item-bg-1 {
+      background-image: url(/img/banner-image-1.jpg);
     }
-    &.slider-item-bg-7 {
-      background-image: url(/img/home-eight/home-eight-banner2.jpg);
+    &.slider-item-bg-5 {
+      background-image: url(/img/banner-image-6.jpg);
+    }
+    &.slider-item-bg-3 {
+      background-image: url(/img/banner-image-2.jpg);
+    }
+    &.slider-item-bg-4 {
+      background-image: url(/img/banner-image-4.jpg);
     }
     &::before {
       display: none;

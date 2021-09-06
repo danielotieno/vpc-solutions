@@ -32,15 +32,15 @@ const Navbar = () => {
 
   return (
     <>
-      <header className='header-area'>
+      <header className='header-area fixed-top'>
         <TopNavbar />
 
-        <div className='nav-area nav-area-seven'>
+        <div className='nav-area'>
           <div id='navbar' className='navbar-area'>
             <div className='main-nav'>
               <nav className='navbar navbar-expand-md navbar-light'>
                 <div className='container'>
-                  <Link href='/'>
+                  <Link href='/' passHref>
                     <a onClick={toggleNavbar} className='navbar-brand'>
                       <Image
                         src={Logo}
@@ -76,7 +76,7 @@ const Navbar = () => {
                       </li>
 
                       <li className='nav-item'>
-                        <Link href='/about-us'>
+                        <Link href='/'>
                           <a onClick={toggleNavbar} className='nav-link'>
                             About
                           </a>
@@ -215,12 +215,19 @@ const Navbar = () => {
                           </li>
                         </ul>
                       </li>
+                      <li className='nav-item'>
+                        <Link href='/'>
+                          <a onClick={toggleNavbar} className='nav-link'>
+                            ISO
+                          </a>
+                        </Link>
+                      </li>
                     </ul>
 
                     <div className='others-option'>
                       <div className='subscribe'>
-                        <Link href='/contact'>
-                          <a className='default-btn'>Get In Touch</a>
+                        <Link href='/#'>
+                          <a className='default-btn'>Contact Us</a>
                         </Link>
                       </div>
                     </div>

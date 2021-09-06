@@ -5303,15 +5303,19 @@ Hero Slider Area Style
 }
 
 .hero-slider-area .slider-item.slider-item-bg-1 {
-  background-image: url(../img/home-three/home-three-banner1.jpg);
+  background-image: url(../img/banner-image-6.jpg);
 }
 
 .hero-slider-area .slider-item.slider-item-bg-2 {
-  background-image: url(../img/home-three/home-three-banner2.jpg);
+  background-image: url(../img/banner-image-4.jpg);
 }
 
 .hero-slider-area .slider-item.slider-item-bg-3 {
-  background-image: url(../img/home-three/home-three-banner3.jpg);
+  background-image: url(../img/banner-image-6.jpg);
+}
+
+.hero-slider-area .slider-item.slider-item-bg-4 {
+  background-image: url(../img/banner-image-5.jpg);
 }
 
 .hero-slider-area .slider-item .slider-text {
@@ -6933,12 +6937,20 @@ Hero Slider Area Eight Style
   z-index: 1;
 }
 
-.hero-slider-area-eight .slider-item.slider-item-bg-6 {
-  background-image: url(/img/home-eight/home-eight-banner1.jpg);
+.hero-slider-area-eight .slider-item.slider-item-bg-1 {
+  background-image: url(/img/banner-image-1.jpg);
 }
 
-.hero-slider-area-eight .slider-item.slider-item-bg-7 {
-  background-image: url(/img/home-eight/home-eight-banner2.jpg);
+.hero-slider-area-eight .slider-item.slider-item-bg-5 {
+  background-image: url(/img/banner-image-6.jpg);
+}
+
+.hero-slider-area-eight .slider-item.slider-item-bg-3 {
+  background-image: url(/img/banner-image-2.jpg);
+}
+
+.hero-slider-area-eight .slider-item.slider-item-bg-4 {
+  background-image: url(/img/banner-image-4.jpg);
 }
 
 .hero-slider-area-eight .slider-item::before {
