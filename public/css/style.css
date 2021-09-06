@@ -2321,7 +2321,7 @@ Footer Top Area Style
 }
 
 .single-widget ul li {
-  color: #c0cade;
+  color: #ffffff;
   margin-bottom: 8px;
   font-size: 15px;
 }
@@ -2335,7 +2335,7 @@ Footer Top Area Style
 }
 
 .single-widget ul li a {
-  color: #c0cade;
+  color: #ffffff;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
