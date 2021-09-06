@@ -88,7 +88,7 @@ const Navbar = () => {
                           <a
                             onClick={(e) => e.preventDefault()}
                             className='nav-link'>
-                            Data Analytics
+                            Services <i className='bx bx-plus'></i>
                           </a>
                         </Link>
 
@@ -98,123 +98,31 @@ const Navbar = () => {
                               <a
                                 onClick={(e) => e.preventDefault()}
                                 className='nav-link'>
-                                Data
+                                Data Management
                               </a>
                             </Link>
-
-                            <ul className='dropdown-menu'>
-                              <li className='nav-item'>
-                                <Link href='/#' activeClassName='active'>
-                                  <a
-                                    onClick={toggleNavbar}
-                                    className='nav-link'>
-                                    Data Management
-                                  </a>
-                                </Link>
-                              </li>
-                              <li className='nav-item'>
-                                <Link href='/#' activeClassName='active'>
-                                  <a
-                                    onClick={toggleNavbar}
-                                    className='nav-link'>
-                                    Data Preparation
-                                  </a>
-                                </Link>
-                              </li>
-                              <li className='nav-item'>
-                                <Link href='/#' activeClassName='active'>
-                                  <a
-                                    onClick={toggleNavbar}
-                                    className='nav-link'>
-                                    Data Visualisation
-                                  </a>
-                                </Link>
-                              </li>
-                              <li className='nav-item'>
-                                <Link href='/#' activeClassName='active'>
-                                  <a
-                                    onClick={toggleNavbar}
-                                    className='nav-link'>
-                                    Data Warehouse Automation
-                                  </a>
-                                </Link>
-                              </li>
-                            </ul>
                           </li>
                           <li className='nav-item'>
                             <Link href='/#'>
                               <a
                                 onClick={(e) => e.preventDefault()}
                                 className='nav-link'>
-                                Analytics
-                              </a>
-                            </Link>
-
-                            <ul className='dropdown-menu'>
-                              <li className='nav-item'>
-                                <Link href='/#' activeClassName='active'>
-                                  <a
-                                    onClick={toggleNavbar}
-                                    className='nav-link'>
-                                    Advanced Analytics
-                                  </a>
-                                </Link>
-                              </li>
-                              <li className='nav-item'>
-                                <Link href='/#' activeClassName='active'>
-                                  <a
-                                    onClick={toggleNavbar}
-                                    className='nav-link'>
-                                    Predictive Analytics
-                                  </a>
-                                </Link>
-                              </li>
-                              <li className='nav-item'>
-                                <Link href='/#' activeClassName='active'>
-                                  <a
-                                    onClick={toggleNavbar}
-                                    className='nav-link'>
-                                    Geospatial Analytics
-                                  </a>
-                                </Link>
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className='nav-item'>
-                        <Link href='/#'>
-                          <a
-                            onClick={(e) => e.preventDefault()}
-                            className='nav-link'>
-                            Services
-                          </a>
-                        </Link>
-
-                        <ul className='dropdown-menu'>
-                          <li className='nav-item'>
-                            <Link href='/#' activeClassName='active'>
-                              <a onClick={toggleNavbar} className='nav-link'>
-                                Software Development
+                                Business Intelligence
                               </a>
                             </Link>
                           </li>
                           <li className='nav-item'>
-                            <Link href='/#' activeClassName='active'>
-                              <a onClick={toggleNavbar} className='nav-link'>
-                                Managed IT & Support
-                              </a>
-                            </Link>
-                          </li>
-                          <li className='nav-item'>
-                            <Link href='/#' activeClassName='active'>
-                              <a onClick={toggleNavbar} className='nav-link'>
-                                Intelligent IT Transformation
+                            <Link href='/#'>
+                              <a
+                                onClick={(e) => e.preventDefault()}
+                                className='nav-link'>
+                                Enterprise Data Platform
                               </a>
                             </Link>
                           </li>
                         </ul>
                       </li>
+
                       <li className='nav-item'>
                         <Link href='/'>
                           <a onClick={toggleNavbar} className='nav-link'>

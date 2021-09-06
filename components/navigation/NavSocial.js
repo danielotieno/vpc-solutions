@@ -22,7 +22,7 @@ export default class NavSocial extends Component {
   }
 
   toggleVisibility() {
-    if (window.pageYOffset > 30) {
+    if (window.pageYOffset > 20) {
       this.setState({
         is_visible: true,
       });
