@@ -688,7 +688,7 @@ Nav Area Style
 }
 
 .nav-area.four .navbar-area .main-nav nav .navbar-nav .nav-item a {
-  color: #001430;
+  color: #f39c12;
 }
 
 .nav-area.four .navbar-area .main-nav nav .navbar-nav .nav-item a:hover {
@@ -2306,7 +2306,7 @@ Footer Top Area Style
   font-size: 22px;
   margin-bottom: 30px;
   display: inline-block;
-  color: #234185;
+  color: #f39c12;
 }
 
 .single-widget p {

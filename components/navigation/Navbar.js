@@ -35,12 +35,12 @@ const Navbar = () => {
       <header className='header-area fixed-top'>
         <TopNavbar />
 
-        <div className='nav-area'>
+        <div className='nav-area four'>
           <div id='navbar' className='navbar-area'>
             <div className='main-nav'>
               <nav className='navbar navbar-expand-md navbar-light'>
                 <div className='container'>
-                  <Link href='/' passHref>
+                  <Link href='/'>
                     <a onClick={toggleNavbar} className='navbar-brand'>
                       <Image
                         src={Logo}
@@ -68,7 +68,7 @@ const Navbar = () => {
                   <div className={classOne} id='navbarSupportedContent'>
                     <ul className='navbar-nav m-auto'>
                       <li className='nav-item'>
-                        <Link href='/' activeClassName='active'>
+                        <Link href='/'>
                           <a onClick={toggleNavbar} className='nav-link'>
                             Home
                           </a>
@@ -76,7 +76,7 @@ const Navbar = () => {
                       </li>
 
                       <li className='nav-item'>
-                        <Link href='/'>
+                        <Link href='/about-us' activeClassName='active'>
                           <a onClick={toggleNavbar} className='nav-link'>
                             About
                           </a>
@@ -94,28 +94,28 @@ const Navbar = () => {
 
                         <ul className='dropdown-menu'>
                           <li className='nav-item'>
-                            <Link href='/#'>
-                              <a
-                                onClick={(e) => e.preventDefault()}
-                                className='nav-link'>
+                            <Link
+                              href='/data-management'
+                              activeClassName='active'>
+                              <a onClick={toggleNavbar} className='nav-link'>
                                 Data Management
                               </a>
                             </Link>
                           </li>
+
                           <li className='nav-item'>
-                            <Link href='/#'>
-                              <a
-                                onClick={(e) => e.preventDefault()}
-                                className='nav-link'>
+                            <Link href='/bi' activeClassName='active'>
+                              <a onClick={toggleNavbar} className='nav-link'>
                                 Business Intelligence
                               </a>
                             </Link>
                           </li>
+
                           <li className='nav-item'>
-                            <Link href='/#'>
-                              <a
-                                onClick={(e) => e.preventDefault()}
-                                className='nav-link'>
+                            <Link
+                              href='/data-platfrom'
+                              activeClassName='active'>
+                              <a onClick={toggleNavbar} className='nav-link'>
                                 Enterprise Data Platform
                               </a>
                             </Link>
@@ -124,7 +124,7 @@ const Navbar = () => {
                       </li>
 
                       <li className='nav-item'>
-                        <Link href='/quality-policy'>
+                        <Link href='/quality-policy' activeClassName='active'>
                           <a onClick={toggleNavbar} className='nav-link'>
                             ISO
                           </a>
