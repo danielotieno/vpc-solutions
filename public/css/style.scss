@@ -2776,11 +2776,11 @@ Page Title Area Style
     background-color: $black-color;
     z-index: -1;
   }
-  &.bg-1 {
-    background-image: url(/img/page-banner-bg1.jpg);
+  &.iso-bg {
+    background-image: url(/img/iso-bg.jpg);
   }
-  &.bg-2 {
-    background-image: url(/img/page-banner-bg2.jpg);
+  &.contact-us-bg {
+    background-image: url(/img/contact-bg.jpg);
   }
   &.bg-3 {
     background-image: url(/img/page-banner-bg3.jpg);
@@ -4326,10 +4326,10 @@ About Page Area Style
 }
 
 /*
-Doctors Details Area Style
+Iso Details Area Style
 =====================================================*/
-.doctors-sidebar {
-  .doctors-img {
+.iso-sidebar {
+  .iso-img {
     text-align: center;
     margin-bottom: 30px;
     img {
@@ -4406,7 +4406,7 @@ Doctors Details Area Style
     }
   }
 }
-.doctors-detailss {
+.iso-detailss {
   .borders {
     border-bottom: 1px solid #eeeeee;
     padding-bottom: 20px;
@@ -4414,7 +4414,7 @@ Doctors Details Area Style
     margin-left: 1px;
     margin-right: 1px;
   }
-  .doctors-history {
+  .iso-history {
     padding: 30px;
     box-shadow: $box-shadow;
     margin-bottom: 30px;

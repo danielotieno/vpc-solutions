@@ -3223,12 +3223,12 @@ Page Title Area Style
   z-index: -1;
 }
 
-.page-title-area.bg-1 {
-  background-image: url(/img/page-banner-bg1.jpg);
+.page-title-area.iso-bg {
+  background-image: url(/img/iso-bg.jpg);
 }
 
-.page-title-area.bg-2 {
-  background-image: url(/img/page-banner-bg2.jpg);
+.page-title-area.contact-us-bg {
+  background-image: url(/img/contact-bg.jpg);
 }
 
 .page-title-area.bg-3 {
@@ -5037,20 +5037,20 @@ About Page Area Style
 }
 
 /*
-Doctors Details Area Style
+Iso Details Area Style
 =====================================================*/
-.doctors-sidebar .doctors-img {
+.iso-sidebar .iso-img {
   text-align: center;
   margin-bottom: 30px;
 }
 
-.doctors-sidebar .doctors-img img {
+.iso-sidebar .iso-img img {
   border-top: 3px solid #234185;
   border-left: 3px solid #234185;
   border-right: 3px solid #234185;
 }
 
-.doctors-sidebar .doctors-img ul {
+.iso-sidebar .iso-img ul {
   line-height: 1;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
@@ -5059,12 +5059,12 @@ Doctors Details Area Style
   list-style-type: none;
 }
 
-.doctors-sidebar .doctors-img ul li {
+.iso-sidebar .iso-img ul li {
   display: inline-block;
   margin: 0 5px;
 }
 
-.doctors-sidebar .doctors-img ul li a {
+.iso-sidebar .iso-img ul li a {
   width: 30px;
   height: 30px;
   line-height: 38px;
@@ -5074,16 +5074,16 @@ Doctors Details Area Style
   text-align: center;
 }
 
-.doctors-sidebar .doctors-img ul li a i {
+.iso-sidebar .iso-img ul li a i {
   font-size: 20px;
 }
 
-.doctors-sidebar .doctors-img ul li a:hover {
+.iso-sidebar .iso-img ul li a:hover {
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
 }
 
-.doctors-sidebar .availability {
+.iso-sidebar .availability {
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
@@ -5091,52 +5091,52 @@ Doctors Details Area Style
   margin-bottom: 30px;
 }
 
-.doctors-sidebar .availability h3 {
+.iso-sidebar .availability h3 {
   margin-bottom: 20px;
 }
 
-.doctors-sidebar .availability h3 i {
+.iso-sidebar .availability h3 i {
   margin-right: 5px;
   position: relative;
   top: 1px;
 }
 
-.doctors-sidebar .availability ul {
+.iso-sidebar .availability ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.doctors-sidebar .availability ul li {
+.iso-sidebar .availability ul li {
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
 
-.doctors-sidebar .availability ul li span {
+.iso-sidebar .availability ul li span {
   float: right;
 }
 
-.doctors-sidebar .availability ul li:last-child {
+.iso-sidebar .availability ul li:last-child {
   border-bottom: none;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-.doctors-sidebar .doctors-feedback {
+.iso-sidebar .doctors-feedback {
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
 }
 
-.doctors-sidebar .doctors-feedback .single-client {
+.iso-sidebar .doctors-feedback .single-client {
   margin: 0;
 }
 
-.doctors-sidebar .doctors-feedback .single-client img {
+.iso-sidebar .doctors-feedback .single-client img {
   position: unset;
 }
 
-.doctors-detailss .borders {
+.iso-detailss .borders {
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -5144,18 +5144,18 @@ Doctors Details Area Style
   margin-right: 1px;
 }
 
-.doctors-detailss .doctors-history {
+.iso-detailss .iso-history {
   padding: 30px;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   margin-bottom: 30px;
 }
 
-.doctors-detailss .doctors-history h2 {
+.iso-detailss .iso-history h2 {
   font-size: 40px;
 }
 
-.doctors-detailss .doctors-history span {
+.iso-detailss .iso-history span {
   font-weight: 600;
   color: #234185;
   font-size: 20px;
@@ -5163,21 +5163,21 @@ Doctors Details Area Style
   margin-bottom: 15px;
 }
 
-.doctors-detailss .doctors-history p {
+.iso-detailss .iso-history p {
   margin-bottom: 30px;
 }
 
-.doctors-detailss .left-title h3 {
+.iso-detailss .left-title h3 {
   font-size: 17px;
 }
 
-.doctors-detailss .right-title ul {
+.iso-detailss .right-title ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-.doctors-detailss .right-title ul li {
+.iso-detailss .right-title ul li {
   font-weight: 600;
   position: relative;
   padding-left: 20px;
@@ -5186,19 +5186,19 @@ Doctors Details Area Style
   border-bottom: 1px solid #eeeeee;
 }
 
-.doctors-detailss .right-title ul li:last-child {
+.iso-detailss .right-title ul li:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
 }
 
-.doctors-detailss .right-title ul li i {
+.iso-detailss .right-title ul li i {
   position: absolute;
   top: 6px;
   left: 0;
 }
 
-.doctors-detailss .appointment-here-form {
+.iso-detailss .appointment-here-form {
   max-width: 100%;
   width: 100%;
 }

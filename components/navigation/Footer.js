@@ -66,7 +66,9 @@ const Footer = () => {
                     <a href='#'>EnterPrise Data Platform</a>
                   </li>
                   <li>
-                    <a href='#'>Quality Policy</a>
+                    <Link href='/quality-policy'>
+                      <a>Quality Policy</a>
+                    </Link>
                   </li>
                 </ul>
               </div>

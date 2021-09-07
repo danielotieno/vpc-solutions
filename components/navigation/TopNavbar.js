@@ -9,7 +9,7 @@ const TopNavbar = () => {
           <div className='col-lg-8 col-md-9 col-sm-6'>
             <ul className='header-content-left'>
               <li>
-                <Link href='/'>
+                <Link href='/quality-policy'>
                   <a>
                     <i className='bx bxs-badge-check'></i>
                     ISO 9001 : 2015
