@@ -9,7 +9,7 @@ const ContactInfo = () => {
             <div className='single-contact-info'>
               <i className='bx bx-location-plus'></i>
               <h3>Ireland</h3>
-              <p>Teach An Rua Kells Road Collon Co. Louth A92 P2N7</p>
+              <p>Teach An Rua Kells Road Collon Co. Louth A92 P2N7, Ireland</p>
               <span>Email: contact@vpc-solutions.com</span>
               <span>Tel: +353xxx7683</span>
             </div>

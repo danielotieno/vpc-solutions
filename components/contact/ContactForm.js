@@ -28,7 +28,11 @@ const INITIAL_STATE = {
 
 const ContactForm = () => {
   const [contact, setContact] = useState(INITIAL_STATE);
-  const { register, handleSubmit, errors } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -56,11 +60,10 @@ const ContactForm = () => {
       <div className='container'>
         <div className='section-title'>
           <span className='top-title'>Contact Us</span>
-          <h2>Drop us a message for any query</h2>
+          <h2>Get In Touch</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-            quibusdam deleniti porro praesentium. Aliquam minus quisquam velit
-            in at nam.
+            Want to get in touch? We would love to hear from you. Here is how
+            you can reach us.
           </p>
         </div>
 
@@ -170,6 +173,10 @@ const ContactForm = () => {
                       {errors.text && 'Text body is required.'}
                     </div>
                   </div>
+                </div>
+
+                <div className='col-lg-6 col-sm-6'>
+                  <div className='contact-num'></div>
                 </div>
 
                 <div className='col-lg-6 col-sm-6'>

@@ -7,7 +7,7 @@ const ContactUs = () => {
   return (
     <>
       <PageBanner
-        pageTitle='Contact'
+        pageTitle='Contact Us'
         homePageUrl='/'
         homePageText='Home'
         activePageText='Contact'
