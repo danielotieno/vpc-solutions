@@ -39,7 +39,7 @@ const IsoDetails = () => {
                     </li>
                     <li>
                       <a href='#' target='_blank'>
-                        <i class='bx bxl-linkedin-square'></i>
+                        <i className='bx bxl-linkedin-square'></i>
                       </a>
                     </li>
                   </ul>
