@@ -71,7 +71,7 @@ const MainBanner = () => {
                           <span className='top-title'>
                             Value Proposition Consulting
                           </span>
-                          <h1>Let's Make Something Good Together</h1>
+                          <h1>Let Us Make Something Good Together</h1>
                           <p>
                             Using a tech-agnostic approach, we provide the right
                             blend of software and hardware solutions that let
