@@ -1,5 +1,6 @@
 {
   "name": "vpc-solutions",
+  "description": "VPC - Value Proposition Consulting",
   "version": "0.1.0",
   "private": true,
   "scripts": {

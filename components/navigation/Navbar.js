@@ -2,7 +2,6 @@ import Image from 'next/image';
 import React from 'react';
 import Logo from '../../public/img/logo.png';
 import Link from '../../utils/ActiveLink';
-import TopNavbar from './TopNavbar';
 
 const Navbar = () => {
   const [menu, setMenu] = React.useState(true);
@@ -33,8 +32,6 @@ const Navbar = () => {
   return (
     <>
       <header className='header-area fixed-top'>
-        <TopNavbar />
-
         <div className='nav-area four'>
           <div id='navbar' className='navbar-area'>
             <div className='main-nav'>
