@@ -26,7 +26,6 @@ const Facility = () => {
               </p>
             </div>
           </div>
-
           <div className='col-lg-3 col-sm-6 p-0'>
             <div className='second-facility-item'>
               <i className='bx bx-user'></i>
@@ -37,7 +36,6 @@ const Facility = () => {
               </p>
             </div>
           </div>
-
           <div className='col-lg-3 col-sm-6 p-0'>
             <div className='second-facility-item'>
               <i className='bx bx-like'></i>
