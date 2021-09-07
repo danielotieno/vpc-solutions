@@ -79,7 +79,7 @@ const MainBanner = () => {
                           </p>
 
                           <div className='slider-btn'>
-                            <Link href='/appointment'>
+                            <Link href='/contact-us'>
                               <a className='default-btn'>Get In Touch</a>
                             </Link>
                           </div>
@@ -111,7 +111,7 @@ const MainBanner = () => {
                           </p>
 
                           <div className='slider-btn'>
-                            <Link href='/appointment'>
+                            <Link href='/contact-us'>
                               <a className='default-btn'>Get In Touch</a>
                             </Link>
                           </div>
@@ -143,7 +143,7 @@ const MainBanner = () => {
                           </p>
 
                           <div className='slider-btn'>
-                            <Link href='/appointment'>
+                            <Link href='/contact-us'>
                               <a className='default-btn'>Get In Touch</a>
                             </Link>
                           </div>

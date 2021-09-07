@@ -37,9 +37,9 @@ const ContactForm = () => {
   };
 
   const onSubmit = async (e) => {
-    // e.preventDefault();
+    e.preventDefault();
     try {
-      const url = `${baseUrl}/api/contact`;
+      const url = `${baseUrl}/api/contact-us`;
       const { name, email, number, subject, text } = contact;
       const payload = { name, email, number, subject, text };
       await axios.post(url, payload);
@@ -78,7 +78,7 @@ const ContactForm = () => {
                       placeholder='Your Name'
                       value={contact.name}
                       onChange={handleChange}
-                      ref={register({ required: true })}
+                      ref={register('name', { required: true })}
                     />
                     <div
                       className='invalid-feedback'
@@ -98,7 +98,10 @@ const ContactForm = () => {
                       placeholder='Your Email'
                       value={contact.email}
                       onChange={handleChange}
-                      ref={register({ required: true, pattern: /^\S+@\S+$/i })}
+                      ref={register('email', {
+                        required: true,
+                        pattern: /^\S+@\S+$/i,
+                      })}
                     />
                     <div
                       className='invalid-feedback'
@@ -118,7 +121,7 @@ const ContactForm = () => {
                       placeholder='Your Phone'
                       value={contact.number}
                       onChange={handleChange}
-                      ref={register({ required: true })}
+                      ref={register('number', { required: true })}
                     />
                     <div
                       className='invalid-feedback'
@@ -138,7 +141,7 @@ const ContactForm = () => {
                       placeholder='Your Subject'
                       value={contact.subject}
                       onChange={handleChange}
-                      ref={register({ required: true })}
+                      ref={register('subject', { required: true })}
                     />
                     <div
                       className='invalid-feedback'
@@ -159,22 +162,13 @@ const ContactForm = () => {
                       placeholder='Your Message'
                       value={contact.text}
                       onChange={handleChange}
-                      ref={register({ required: true })}
+                      ref={register('text', { required: true })}
                     />
                     <div
                       className='invalid-feedback'
                       style={{ display: 'block' }}>
                       {errors.text && 'Text body is required.'}
                     </div>
-                  </div>
-                </div>
-
-                <div className='col-lg-6 col-sm-6'>
-                  <div className='contact-num'>
-                    <h3>For Emergency</h3>
-                    <span>
-                      <a href='tel:+442-456a-789'>+442-456a-789</a>
-                    </span>
                   </div>
                 </div>
 

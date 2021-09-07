@@ -8,32 +8,36 @@ const ContactInfo = () => {
           <div className='col-lg-3 p-0'>
             <div className='single-contact-info'>
               <i className='bx bx-location-plus'></i>
-              <h3>New York</h3>
-              <p>88 Flower Avenue, Kingdom St, New York</p>
-              <span>Email: hello@corf.com</span>
-              <span>Tel: +822456974</span>
+              <h3>Ireland</h3>
+              <p>Teach An Rua Kells Road Collon Co. Louth A92 P2N7</p>
+              <span>Email: contact@vpc-solutions.com</span>
+              <span>Tel: +353xxx7683</span>
             </div>
           </div>
 
           <div className='col-lg-3 p-0'>
             <div className='single-contact-map'>
-              <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.1583091352!2d-74.11976373946234!3d40.69766374859258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1588019781257!5m2!1sen!2sbd'></iframe>
+              <iframe
+                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32527.280555481004!2d-6.560286303284741!3d53.77848405501802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867484d39514335%3A0xd4e9238fca9db5d!2sTeach%20an%20Rua%2C%20Kells%20Rd%2C%20Collon%2C%20Co.%20Louth%2C%20Ireland!5e0!3m2!1sen!2ske!4v1631023865971!5m2!1sen!2ske'
+                loading='lazy'></iframe>
             </div>
           </div>
 
           <div className='col-lg-3 p-0'>
             <div className='single-contact-info'>
               <i className='bx bx-location-plus'></i>
-              <h3>Australia</h3>
-              <p>123, Western Road, Melbourne Australia</p>
-              <span>Email: hello@corf.com</span>
-              <span>Tel: +822456975</span>
+              <h3>United Kingdom</h3>
+              <p>3rd floor 116 Dundas St Edinburgh EH3 5DQ, United Kingdom</p>
+              <span>Email: contact@vpc-solutions.com</span>
+              <span>Tel: +353xxx7683</span>
             </div>
           </div>
 
           <div className='col-lg-3 p-0'>
             <div className='single-contact-map'>
-              <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29624007.58460168!2d115.2297986315677!3d-24.992915938390162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2sAustralia!5e0!3m2!1sen!2sbd!4v1588020297752!5m2!1sen!2sbd'></iframe>
+              <iframe
+                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233.413844699709!2d-3.2031658842047954!3d55.959530683496425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c794999d1f0f%3A0x4a0b40f9fcf016fd!2s3rd%20floor%2C%20116%20Dundas%20St%2C%20Edinburgh%20EH3%205DQ%2C%20UK!5e0!3m2!1sen!2ske!4v1631024227057!5m2!1sen!2ske'
+                loading='lazy'></iframe>
             </div>
           </div>
         </div>

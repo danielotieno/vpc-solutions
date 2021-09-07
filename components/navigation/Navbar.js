@@ -131,7 +131,7 @@ const Navbar = () => {
 
                     <div className='others-option'>
                       <div className='subscribe'>
-                        <Link href='/#'>
+                        <Link href='/contact-us'>
                           <a className='default-btn'>Contact Us</a>
                         </Link>
                       </div>

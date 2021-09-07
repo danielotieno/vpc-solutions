@@ -91,14 +91,19 @@ const Footer = () => {
                     <a href='mailto:info@vpc-solutions.com'>
                       <i className='bx bx-envelope'></i>
                       <span>Email:</span>
-                      info@vpc-solutions.com
+                      contact@vpc-solutions.com
                     </a>
                   </li>
 
                   <li>
                     <i className='bx bx-location-plus'></i>
                     <span>Address:</span>
-                    123, Belfast, United Kingdom.
+                    3rd floor 116 Dundas St Edinburgh EH3 5DQ, United Kingdom
+                  </li>
+                  <li>
+                    <i className='bx bx-location-plus'></i>
+                    <span>Address:</span>
+                    Teach An Rua Kells Road Collon Co. Louth A92 P2N7 Ireland
                   </li>
                 </ul>
               </div>
