@@ -12,7 +12,7 @@ const MySwal = withReactContent(Swal);
 const alertContent = () => {
   MySwal.fire({
     title: 'Congratulations!',
-    text: 'Your message was successfully send and will back to you soon',
+    text: 'Your message has been successfully submitted',
     icon: 'success',
     timer: 2000,
     timerProgressBar: true,

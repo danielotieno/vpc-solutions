@@ -16,7 +16,7 @@ export default async (req, res) => {
 
   const data = {
     to: 'david.maguire@vpc-solutions.com',
-    from: 'daniel@saas.ie',
+    from: 'info@vpc-solutions.com',
     subject: `${subject}`,
     replyTo: `${email}`,
     text: text,
