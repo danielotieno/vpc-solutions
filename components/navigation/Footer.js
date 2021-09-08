@@ -91,7 +91,7 @@ const Footer = () => {
                     <a href='mailto:info@vpc-solutions.com'>
                       <i className='bx bx-envelope'></i>
                       <span>Email:</span>
-                      contact@vpc-solutions.com
+                      info@vpc-solutions.com
                     </a>
                   </li>
 
