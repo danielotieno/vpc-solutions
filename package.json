@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^2.8.0",
     "axios": "^0.21.4",
     "next": "11.0.1",
     "nodemailer": "^6.6.3",
@@ -18,13 +19,14 @@
     "react-accessible-accordion": "^3.3.5",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "17.0.2",
-    "react-hook-form": "^7.12.2",
+    "react-hook-form": "^7.15.1",
     "react-modal-video": "^1.2.8",
     "react-owl-carousel3": "^2.2.5",
     "react-share": "^4.4.0",
     "sass": "^1.37.2",
     "sweetalert2": "^11.1.0",
-    "sweetalert2-react-content": "^4.1.1"
+    "sweetalert2-react-content": "^4.1.1",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "eslint": "7.32.0",

@@ -1,9 +1,12 @@
+import { yupResolver } from '@hookform/resolvers/yup';
 import axios from 'axios';
-import React, { useState } from 'react';
+import React from 'react';
 import { useForm } from 'react-hook-form';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
+import * as Yup from 'yup';
 import baseUrl from '../../utils/baseUrl';
+
 const MySwal = withReactContent(Swal);
 
 const alertContent = () => {
@@ -17,38 +20,33 @@ const alertContent = () => {
   });
 };
 
-// Form initial state
-const INITIAL_STATE = {
-  name: '',
-  email: '',
-  number: '',
-  subject: '',
-  text: '',
-};
-
 const ContactForm = () => {
-  const [contact, setContact] = useState(INITIAL_STATE);
+  // form validation rules
+  const schema = Yup.object().shape({
+    firstName: Yup.string().required('First Name is required'),
+    lastName: Yup.string().required('Last Name is required'),
+    email: Yup.string().required('Email is required').email('Email is invalid'),
+    subject: Yup.string().required('Subject is required'),
+    text: Yup.string().required('Message is required'),
+  });
+
+  const formOptions = { resolver: yupResolver(schema) };
+
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+    reset,
+  } = useForm(formOptions);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setContact((prevState) => ({ ...prevState, [name]: value }));
-    console.log(contact);
-  };
-
-  const onSubmit = async (e) => {
-    e.preventDefault();
+  const onSubmitHandler = async (data) => {
     try {
-      const url = `${baseUrl}/api/contact-us`;
-      const { name, email, number, subject, text } = contact;
-      const payload = { name, email, number, subject, text };
+      const url = `${baseUrl}/api/contact`;
+      const { firstName, lastName, email, subject, text } = data;
+      const payload = { firstName, lastName, email, subject, text };
       await axios.post(url, payload);
       console.log(url);
-      setContact(INITIAL_STATE);
+      reset();
       alertContent();
     } catch (error) {
       console.log(error);
@@ -69,24 +67,44 @@ const ContactForm = () => {
 
         <div className='contact-wrap contact-pages mb-0'>
           <div className='contact-form'>
-            <form id='contactForm' onSubmit={handleSubmit(onSubmit)}>
+            <form id='contactForm' onSubmit={handleSubmit(onSubmitHandler)}>
               <div className='row'>
                 <div className='col-lg-6 col-md-6'>
                   <div className='form-group'>
-                    <label>Name</label>
+                    <label>First Name</label>
                     <input
                       type='text'
-                      name='name'
-                      className='form-control'
-                      placeholder='Your Name'
-                      value={contact.name}
-                      onChange={handleChange}
-                      ref={register('name', { required: true })}
+                      name='firstName'
+                      className={`form-control ${
+                        errors.firstName ? 'is-invalid' : ''
+                      }`}
+                      placeholder='Your First Name'
+                      {...register('firstName')}
                     />
                     <div
                       className='invalid-feedback'
                       style={{ display: 'block' }}>
-                      {errors.name && 'Name is required.'}
+                      {errors.firstName?.message}
+                    </div>
+                  </div>
+                </div>
+
+                <div className='col-lg-6 col-md-6'>
+                  <div className='form-group'>
+                    <label>Last Name</label>
+                    <input
+                      type='text'
+                      name='lastName'
+                      className={`form-control ${
+                        errors.lastName ? 'is-invalid' : ''
+                      }`}
+                      placeholder='Your Last Name'
+                      {...register('lastName')}
+                    />
+                    <div
+                      className='invalid-feedback'
+                      style={{ display: 'block' }}>
+                      {errors.lastName?.message}
                     </div>
                   </div>
                 </div>
@@ -97,39 +115,16 @@ const ContactForm = () => {
                     <input
                       type='text'
                       name='email'
-                      className='form-control'
+                      className={`form-control ${
+                        errors.email ? 'is-invalid' : ''
+                      }`}
                       placeholder='Your Email'
-                      value={contact.email}
-                      onChange={handleChange}
-                      ref={register('email', {
-                        required: true,
-                        pattern: /^\S+@\S+$/i,
-                      })}
+                      {...register('email')}
                     />
                     <div
                       className='invalid-feedback'
                       style={{ display: 'block' }}>
-                      {errors.email && 'Email is required.'}
-                    </div>
-                  </div>
-                </div>
-
-                <div className='col-lg-6 col-md-6'>
-                  <div className='form-group'>
-                    <label>Phone</label>
-                    <input
-                      type='text'
-                      name='number'
-                      className='form-control'
-                      placeholder='Your Phone'
-                      value={contact.number}
-                      onChange={handleChange}
-                      ref={register('number', { required: true })}
-                    />
-                    <div
-                      className='invalid-feedback'
-                      style={{ display: 'block' }}>
-                      {errors.number && 'Number is required.'}
+                      {errors.email?.message}
                     </div>
                   </div>
                 </div>
@@ -140,16 +135,16 @@ const ContactForm = () => {
                     <input
                       type='text'
                       name='subject'
-                      className='form-control'
+                      className={`form-control ${
+                        errors.subject ? 'is-invalid' : ''
+                      }`}
                       placeholder='Your Subject'
-                      value={contact.subject}
-                      onChange={handleChange}
-                      ref={register('subject', { required: true })}
+                      {...register('subject')}
                     />
                     <div
                       className='invalid-feedback'
                       style={{ display: 'block' }}>
-                      {errors.subject && 'Subject is required.'}
+                      {errors.subject?.message}
                     </div>
                   </div>
                 </div>
@@ -159,18 +154,18 @@ const ContactForm = () => {
                     <label>Message</label>
                     <textarea
                       name='text'
-                      className='form-control'
+                      className={`form-control ${
+                        errors.text ? 'is-invalid' : ''
+                      }`}
                       cols='30'
                       rows='5'
                       placeholder='Your Message'
-                      value={contact.text}
-                      onChange={handleChange}
-                      ref={register('text', { required: true })}
+                      {...register('text')}
                     />
                     <div
                       className='invalid-feedback'
                       style={{ display: 'block' }}>
-                      {errors.text && 'Text body is required.'}
+                      {errors.text?.message}
                     </div>
                   </div>
                 </div>
