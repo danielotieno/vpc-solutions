@@ -1442,6 +1442,13 @@ Counter Area Style
     animation: FocuSTwo 1s linear 1s infinite;
   }
 }
+.fun-quote {
+  box-shadow: $box-shadow;
+  padding: 30px;
+  transition: $transition;
+  background-color: #fefae3;
+  margin-bottom: 30px;
+}
 .single-counter {
   text-align: center;
   transition: $transition;
