@@ -1,9 +1,8 @@
 import React from 'react';
 
-const SectionHeading = ({ sectionSubTitle, sectionTitle, sectionText }) => {
+const SectionHeading = ({ sectionTitle, sectionText }) => {
   return (
-    <div className='section-title'>
-      <span className='top-title'>{sectionSubTitle}</span>
+    <div className='section-title white-title'>
       <h2>{sectionTitle}</h2>
       <p>{sectionText}</p>
     </div>

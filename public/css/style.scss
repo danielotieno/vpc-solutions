@@ -1297,7 +1297,7 @@ Doctors Area Style
 Work Area Style
 ======================================================*/
 .our-work-area {
-  background-image: url(/img/work-bg.jpg);
+  background-color: $heading-color;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1306,7 +1306,7 @@ Work Area Style
   z-index: 1;
   .section-title {
     .top-title {
-      color: $heading-color;
+      color: #ffffff;
     }
   }
   .owl-theme {
@@ -4573,16 +4573,16 @@ Hero Slider Area Style
       z-index: -1;
     }
     &.slider-item-bg-1 {
-      background-image: url(../img/banner-image-6.jpg);
+      background-image: url(../img/banner-image-1.jpg);
     }
     &.slider-item-bg-2 {
-      background-image: url(../img/banner-image-4.jpg);
+      background-image: url(../img/banner-image-2.jpg);
     }
     &.slider-item-bg-3 {
-      background-image: url(../img/banner-image-6.jpg);
+      background-image: url(../img/banner-image-3.jpg);
     }
     &.slider-item-bg-4 {
-      background-image: url(../img/banner-image-5.jpg);
+      background-image: url(../img/banner-image-4.jpg);
     }
     .slider-text {
       position: relative;

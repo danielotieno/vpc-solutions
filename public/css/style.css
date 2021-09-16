@@ -1471,7 +1471,7 @@ Doctors Area Style
 Work Area Style
 ======================================================*/
 .our-work-area {
-  background-image: url(/img/work-bg.jpg);
+  background-color: #001430;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1481,7 +1481,7 @@ Work Area Style
 }
 
 .our-work-area .section-title .top-title {
-  color: #001430;
+  color: #ffffff;
 }
 
 .our-work-area .owl-theme .owl-dots {
@@ -5313,19 +5313,19 @@ Hero Slider Area Style
 }
 
 .hero-slider-area .slider-item.slider-item-bg-1 {
-  background-image: url(../img/banner-image-6.jpg);
+  background-image: url(../img/banner-image-1.jpg);
 }
 
 .hero-slider-area .slider-item.slider-item-bg-2 {
-  background-image: url(../img/banner-image-4.jpg);
+  background-image: url(../img/banner-image-2.jpg);
 }
 
 .hero-slider-area .slider-item.slider-item-bg-3 {
-  background-image: url(../img/banner-image-6.jpg);
+  background-image: url(../img/banner-image-3.jpg);
 }
 
 .hero-slider-area .slider-item.slider-item-bg-4 {
-  background-image: url(../img/banner-image-5.jpg);
+  background-image: url(../img/banner-image-4.jpg);
 }
 
 .hero-slider-area .slider-item .slider-text {
