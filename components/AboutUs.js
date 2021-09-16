@@ -53,12 +53,14 @@ const AboutUs = () => {
                 activities.
               </h2>
               <p>
-                Digital transformation may feel like an incredible challenge
-                that brings risks and uncertainties. And it actually is. We
-                believe in starting smart and simple to translate complexity
-                into an easily digestible roadmap for change. We help you pivot
-                to new technology step-by-step while getting most out of your
-                legacy systems.
+                We provide a full scope of big data consulting and
+                implementation services, making your torrents of data usable by
+                everyone in your company. Our mission is to get you insights
+                quickly, and in a format that is easy to understand regardless
+                of skill sets. From data management strategies to custom
+                self-service BI platforms catering to your unique industry
+                needs, we want to arm you with the best possible big data
+                solution.
               </p>
 
               <ul>
