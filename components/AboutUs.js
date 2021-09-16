@@ -74,10 +74,7 @@ const AboutUs = () => {
                   <i className='flaticon-tick'></i>
                   Data Warehouse Automation
                 </li>
-                <li>
-                  <i className='flaticon-tick'></i>
-                  Digital laboratory
-                </li>
+
                 <li>
                   <i className='flaticon-tick'></i>
                   Data Visualization
