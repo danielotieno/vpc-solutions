@@ -2,6 +2,7 @@ import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import React from 'react';
 import SectionHeading from './common/SectionHeading';
+
 const OwlCarousel = dynamic(import('react-owl-carousel3'));
 
 const options = {

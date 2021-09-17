@@ -23,10 +23,11 @@ const Footer = () => {
                 </Link>
 
                 <p>
-                  Lorem ipsum dolor, sit amet earum consectetur adipisicing
-                  elit. Cupiditate rerum quidem fugiat sapiente! Iusto quae
-                  perspiciatis, repudiandae ipsam minus et ex, aliquid dolor
-                  molestias, earum enim officiis porro obcaecati.
+                  We provide a full scope of big data consulting and
+                  implementation services, making your torrents of data usable
+                  by everyone in your company. Our mission is to get you
+                  insights quickly, and in a format that is easy to understand
+                  regardless of skill sets.
                 </p>
 
                 <div className='social-area'>
