@@ -177,13 +177,13 @@
     right: 5px;
     top: 50%;
     -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
+    transform: translateY(-30px);
   }
   .doctors-area .owl-theme .owl-nav .owl-prev {
     left: 5px;
     top: 50%;
     -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
+    transform: translateY(-30px);
   }
   .single-doctor {
     padding: 20px;
@@ -264,13 +264,13 @@
     margin: 30px auto 0;
     height: 50px;
   }
-  .subscribe-area .newsletter-form .default-btn::before {
+  .subscribe-area .getintouch .default-btn::before {
     display: none;
   }
-  .subscribe-area .newsletter-form .default-btn::after {
+  .subscribe-area .getintouch .default-btn::after {
     display: none;
   }
-  .subscribe-area .newsletter-form .form-control {
+  .subscribe-area .getintouch {
     height: 50px;
   }
   .single-widget h3 {
@@ -468,7 +468,12 @@
     margin-right: 0;
     margin-bottom: 5px;
   }
-  .blog-details-area .blog-details-desc .article-content .entry-meta ul li::before {
+  .blog-details-area
+    .blog-details-desc
+    .article-content
+    .entry-meta
+    ul
+    li::before {
     display: none;
   }
   .blog-details-area .blog-details-desc .article-content h3 {
@@ -526,7 +531,10 @@
   .blog-details-area .comments-area .comment-respond .comment-reply-title {
     font-size: 19px;
   }
-  .blog-details-area .comments-area .comment-respond .comment-reply-title::before {
+  .blog-details-area
+    .comments-area
+    .comment-respond
+    .comment-reply-title::before {
     left: -20px;
   }
   .blog-details-area .comments-area .comment-respond .comment-form-author {
@@ -583,7 +591,7 @@
   .hero-slider-area .owl-theme .owl-dots {
     bottom: 20px;
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     display: inline-block;
     left: 0;
     right: 0;
@@ -752,13 +760,22 @@
     font-size: 15px;
     padding-top: 0;
   }
-  .search-area .top-search-from .searchs-wraps .form-control::-webkit-input-placeholder {
+  .search-area
+    .top-search-from
+    .searchs-wraps
+    .form-control::-webkit-input-placeholder {
     font-size: 15px;
   }
-  .search-area .top-search-from .searchs-wraps .form-control:-ms-input-placeholder {
+  .search-area
+    .top-search-from
+    .searchs-wraps
+    .form-control:-ms-input-placeholder {
     font-size: 15px;
   }
-  .search-area .top-search-from .searchs-wraps .form-control::-ms-input-placeholder {
+  .search-area
+    .top-search-from
+    .searchs-wraps
+    .form-control::-ms-input-placeholder {
     font-size: 15px;
   }
   .search-area .top-search-from .searchs-wraps .form-control::placeholder {
@@ -876,7 +893,7 @@
   }
   .hero-slider-area-seven .slider-item::after {
     -webkit-clip-path: unset;
-            clip-path: unset;
+    clip-path: unset;
   }
   .second-facility-area.seven .p-0 {
     padding-left: 15px !important;
@@ -970,13 +987,25 @@
   .nav-area .navbar-area .main-nav nav .navbar-collapse::-webkit-scrollbar {
     width: 8px;
   }
-  .nav-area .navbar-area .main-nav nav .navbar-collapse::-webkit-scrollbar-track {
+  .nav-area
+    .navbar-area
+    .main-nav
+    nav
+    .navbar-collapse::-webkit-scrollbar-track {
     background: #f1f1f1;
   }
-  .nav-area .navbar-area .main-nav nav .navbar-collapse::-webkit-scrollbar-thumb {
+  .nav-area
+    .navbar-area
+    .main-nav
+    nav
+    .navbar-collapse::-webkit-scrollbar-thumb {
     background: #888;
   }
-  .nav-area .navbar-area .main-nav nav .navbar-collapse::-webkit-scrollbar-thumb:hover {
+  .nav-area
+    .navbar-area
+    .main-nav
+    nav
+    .navbar-collapse::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
   .nav-area .navbar-area .main-nav nav .navbar-nav {
@@ -993,7 +1022,7 @@
     opacity: 1;
     visibility: visible;
     -webkit-transform: scaleY(1);
-            transform: scaleY(1);
+    transform: scaleY(1);
     width: 100%;
     margin-top: 10px;
     top: 0 !important;
@@ -1001,13 +1030,21 @@
   .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li {
     padding: 0;
   }
-  .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+  .nav-area
+    .navbar-area
+    .main-nav
+    nav
+    .navbar-nav
+    .nav-item
+    .dropdown-menu
+    li
+    .dropdown-menu {
     left: 15px;
     position: relative;
     opacity: 1 !important;
     visibility: visible !important;
     -webkit-transform: scaleY(1);
-            transform: scaleY(1);
+    transform: scaleY(1);
     width: 90%;
     margin-top: 0;
     top: 0 !important;
@@ -1015,7 +1052,7 @@
   .nav-area.four .navbar-area .main-nav {
     background-color: #ffffff;
     -webkit-box-shadow: 0px 0px 10px #eee;
-            box-shadow: 0px 0px 10px #eee;
+    box-shadow: 0px 0px 10px #eee;
   }
   .nav-area.four .navbar-area .navbar-toggler .icon-bar {
     background: #25245e;
@@ -1298,13 +1335,13 @@
     right: 5px;
     top: 50%;
     -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
+    transform: translateY(-30px);
   }
   .doctors-area .owl-theme .owl-nav .owl-prev {
     left: 5px;
     top: 50%;
     -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
+    transform: translateY(-30px);
   }
   .single-doctor {
     padding: 20px;
@@ -1490,7 +1527,7 @@
     bottom: 20px;
     display: inline-block;
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   .hero-slider-area .owl-theme .owl-dots .owl-dot span {
     width: 20px;
@@ -1810,7 +1847,7 @@
   }
   .hero-slider-area-seven .slider-item::after {
     -webkit-clip-path: unset;
-            clip-path: unset;
+    clip-path: unset;
   }
   .second-facility-area.seven .p-0 {
     padding-left: 15px !important;
@@ -1930,7 +1967,7 @@
   .nav-area.four .navbar-area .main-nav {
     background-color: #ffffff;
     -webkit-box-shadow: 0px 0px 10px #eee;
-            box-shadow: 0px 0px 10px #eee;
+    box-shadow: 0px 0px 10px #eee;
   }
   .nav-area.four .navbar-area .navbar-toggler .icon-bar {
     background: #25245e;
@@ -2229,7 +2266,7 @@
     bottom: 20px;
     display: inline-block;
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   .hero-slider-area .owl-theme .owl-dots .owl-dot span {
     width: 30px;
@@ -2263,7 +2300,7 @@
   .mean-container .mean-bar {
     background-color: #25245e;
     -webkit-box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.05);
-            box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.05);
     height: 70px;
   }
   .mean-container a.meanmenu-reveal {

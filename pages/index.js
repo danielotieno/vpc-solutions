@@ -1,5 +1,6 @@
 import AboutUs from '../components/AboutUs';
 import MainBanner from '../components/banner/MainBanner';
+import GetInTouch from '../components/common/GetInTouch';
 import Facilities from '../components/Facilities';
 import OurApproach from '../components/OurApproach';
 import OurServices from '../components/OurServices';
@@ -14,6 +15,7 @@ export default function Home() {
       <OurServices />
       <QuoteSection />
       <OurApproach />
+      <GetInTouch />
     </>
   );
 }
