@@ -8,7 +8,10 @@ const GetInTouch = () => {
         <div className='row align-items-center'>
           <div className='col-lg-6'>
             <h2>Interested To Work With Us</h2>
-            <p>We would be happy to answer your questions &#8594;</p>
+            <p>
+              We would be happy to answer your questions{' '}
+              <strong>&#8594;</strong>{' '}
+            </p>
           </div>
 
           <div className='col-lg-6'>
