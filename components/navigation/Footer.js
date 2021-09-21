@@ -81,14 +81,6 @@ const Footer = () => {
 
                 <ul>
                   <li>
-                    <a href='tel:+353xxx3456'>
-                      <i className='bx bx-phone-call'></i>
-                      <span>Hotline:</span>
-                      Phone: +353xxx3456
-                    </a>
-                  </li>
-
-                  <li>
                     <a href='mailto:info@vpc-solutions.com'>
                       <i className='bx bx-envelope'></i>
                       <span>Email:</span>
