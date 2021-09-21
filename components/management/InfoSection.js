@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import ManagementServices from './ManagementServices';
 
 const InfoSection = () => {
   return (
@@ -40,6 +41,7 @@ const InfoSection = () => {
             </div>
           </div>
         </div>
+        <ManagementServices />
       </div>
     </div>
   );
