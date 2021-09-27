@@ -22,9 +22,15 @@ const alertContent = () => {
 
 const ContactForm = () => {
   // form validation rules
+  const phoneRegExp =
+    /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
+
   const schema = Yup.object().shape({
-    firstName: Yup.string().required('First Name is required'),
-    lastName: Yup.string().required('Last Name is required'),
+    fullName: Yup.string().required('FullName is required'),
+    phoneNumber: Yup.Yup.string().matches(
+      phoneRegExp,
+      'Phone number is not valid',
+    ),
     email: Yup.string().required('Email is required').email('Email is invalid'),
     subject: Yup.string().required('Subject is required'),
     text: Yup.string().required('Message is required'),
@@ -42,10 +48,9 @@ const ContactForm = () => {
   const onSubmitHandler = async (data) => {
     try {
       const url = `${baseUrl}/api/contact`;
-      const { firstName, lastName, email, subject, text } = data;
-      const payload = { firstName, lastName, email, subject, text };
+      const { fullName, phoneNumber, email, subject, text } = data;
+      const payload = { fullName, phoneNumber, email, subject, text };
       await axios.post(url, payload);
-      console.log(url);
       reset();
       alertContent();
     } catch (error) {
@@ -71,40 +76,40 @@ const ContactForm = () => {
               <div className='row'>
                 <div className='col-lg-6 col-md-6'>
                   <div className='form-group'>
-                    <label>First Name</label>
+                    <label>Full Name</label>
                     <input
                       type='text'
-                      name='firstName'
+                      name='fullName'
                       className={`form-control ${
-                        errors.firstName ? 'is-invalid' : ''
+                        errors.fullName ? 'is-invalid' : ''
                       }`}
-                      placeholder='Your First Name'
-                      {...register('firstName')}
+                      placeholder='Your Full Name'
+                      {...register('fullName')}
                     />
                     <div
                       className='invalid-feedback'
                       style={{ display: 'block' }}>
-                      {errors.firstName?.message}
+                      {errors.fullName?.message}
                     </div>
                   </div>
                 </div>
 
                 <div className='col-lg-6 col-md-6'>
                   <div className='form-group'>
-                    <label>Last Name</label>
+                    <label>Phone Number</label>
                     <input
                       type='text'
-                      name='lastName'
+                      name='phoneNumber'
                       className={`form-control ${
-                        errors.lastName ? 'is-invalid' : ''
+                        errors.phoneNumber ? 'is-invalid' : ''
                       }`}
-                      placeholder='Your Last Name'
-                      {...register('lastName')}
+                      placeholder='Your Phone Number(Optional)'
+                      {...register('phoneNumber')}
                     />
                     <div
                       className='invalid-feedback'
                       style={{ display: 'block' }}>
-                      {errors.lastName?.message}
+                      {errors.phoneNumber?.message}
                     </div>
                   </div>
                 </div>
