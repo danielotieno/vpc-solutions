@@ -15,11 +15,9 @@ const GetInTouch = () => {
           </div>
 
           <div className='col-lg-6'>
-            <div className='getintouch'>
+            <div className='newsletter-form'>
               <Link href='/contact-us'>
-                <button className='default-btn' type='submit'>
-                  Get In Touch
-                </button>
+                <button className='default-btn'>Get In Touch</button>
               </Link>
             </div>
           </div>

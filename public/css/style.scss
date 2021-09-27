@@ -181,6 +181,12 @@ textarea {
 .pt-70 {
   padding-top: 70px;
 }
+.mt-10 {
+  margin-top: 15px;
+}
+.pt-10 {
+  padding-top: 15px;
+}
 .pb-70 {
   padding-bottom: 70px;
 }
@@ -1910,7 +1916,7 @@ Blog Area Style
 Subscribe Area Style
 ======================================================*/
 .subscribe-area {
-  background-color: #eaf6fc;
+  background-color: #f39c12;
   padding-top: 50px;
   padding-bottom: 50px;
   h2 {
@@ -1920,10 +1926,9 @@ Subscribe Area Style
     font-weight: 600;
   }
   .newsletter-form {
-    .form-control {
-      height: 60px;
-      background-color: $white-color;
-    }
+    height: 60px;
+    background-color: #f39c12;
+
     position: relative;
     .default-btn {
       position: absolute;
@@ -2783,11 +2788,15 @@ Page Title Area Style
     background-color: $black-color;
     z-index: -1;
   }
+
   &.iso-bg {
     background-image: url(/img/iso-bg.jpg);
   }
   &.contact-us-bg {
     background-image: url(/img/contact-bg.jpg);
+  }
+  &.management-bg {
+    background-image: url(/img/management-bg.jpg);
   }
   &.bg-3 {
     background-image: url(/img/page-banner-bg3.jpg);
@@ -3141,18 +3150,10 @@ Coming Soon Area Style
         width: 100%;
         height: 60px;
         border: none;
-        background-color: rgba(255, 255, 255, 0.3);
         padding-left: 15px;
-        color: $white-color;
         outline: 0;
         transition: 0.5s;
         border-radius: 10px;
-        &::placeholder {
-          color: $white-color;
-        }
-        &:focus {
-          border-color: $main-color;
-        }
       }
       button {
         position: absolute;

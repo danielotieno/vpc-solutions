@@ -1,6 +1,7 @@
 import GetInTouch from '../components/common/GetInTouch';
 import PageBanner from '../components/common/PageBanner';
 import InfoSection from '../components/management/InfoSection';
+import ManagementSteps from '../components/management/ManagementSteps';
 
 export default function DataManagement() {
   return (
@@ -13,6 +14,7 @@ export default function DataManagement() {
         imgClass='management-bg'
       />
       <InfoSection />
+      <ManagementSteps />
       <GetInTouch />
     </>
   );
