@@ -12,7 +12,7 @@ const mailer = nodemailer.createTransport(sgTransport(transporter));
 
 export default async (req, res) => {
   console.log(req.body);
-  const { firstName, lastName, email, subject, text } = req.body;
+  const { fullName, phoneNumber, email, subject, text } = req.body;
 
   const data = {
     to: 'david.maguire@vpc-solutions.com',
@@ -21,8 +21,9 @@ export default async (req, res) => {
     replyTo: `${email}`,
     text: text,
     html: `
-            <b>From:</b> ${firstName} ${lastName} <br />
+            <b>From:</b> ${fullName} <br />
             <b>Email:</b> ${email} <br />
+            <b>Phone Number:</b> ${phoneNumber} <br />
             <b>Message:</b> ${text}
         `,
   };

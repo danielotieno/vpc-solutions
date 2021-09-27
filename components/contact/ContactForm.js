@@ -95,7 +95,7 @@ const ContactForm = () => {
                   <div className='form-group'>
                     <label>Phone Number</label>
                     <input
-                      type='text'
+                      type='tel'
                       name='phoneNumber'
                       className={`form-control ${
                         errors.phoneNumber ? 'is-invalid' : ''
