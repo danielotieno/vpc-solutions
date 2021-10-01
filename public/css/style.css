@@ -65,6 +65,7 @@ body {
   line-height: 1.8;
   font-family: "Lato", sans-serif;
   color: #525252;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -2804,11 +2805,11 @@ Symptoms Area Style
 Counter Area Style
 ======================================================*/
 .counter-area.two {
-  background-image: url(/img/counter-bg.jpg);
+  background-image: url(/img/fun-banner3.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 350px;
   padding-top: 100px;
   position: relative;
   z-index: 1;

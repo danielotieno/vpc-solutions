@@ -23,9 +23,9 @@ const ManagementSteps = () => {
           <div className='col-lg-6'>
             <div className='faq-img'>
               <Image
-                src='/img/data-integration.jpg'
+                src='/img/data-man-steps.png'
                 width={640}
-                height={426}
+                height={427}
                 alt='Our Approach'
               />
             </div>

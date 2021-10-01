@@ -101,19 +101,11 @@ const Navbar = () => {
                           </li>
 
                           <li className='nav-item'>
-                            <Link href='/bi' activeClassName='active'>
-                              <a onClick={toggleNavbar} className='nav-link'>
-                                Business Intelligence
-                              </a>
-                            </Link>
-                          </li>
-
-                          <li className='nav-item'>
                             <Link
-                              href='/data-platfrom'
+                              href='/business-intelligence'
                               activeClassName='active'>
                               <a onClick={toggleNavbar} className='nav-link'>
-                                Enterprise Data Platform
+                                Business Intelligence
                               </a>
                             </Link>
                           </li>

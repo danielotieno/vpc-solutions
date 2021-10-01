@@ -1,3 +1,4 @@
+import FunBanner from '../components/common/FunBanner';
 import GetInTouch from '../components/common/GetInTouch';
 import PageBanner from '../components/common/PageBanner';
 import InfoSection from '../components/management/InfoSection';
@@ -14,6 +15,7 @@ export default function DataManagement() {
         imgClass='management-bg'
       />
       <InfoSection />
+      <FunBanner />
       <ManagementSteps />
       <GetInTouch />
     </>

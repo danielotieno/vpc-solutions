@@ -58,14 +58,16 @@ const Footer = () => {
 
                 <ul>
                   <li>
-                    <a href='#'>Data Management</a>
+                    <Link href='/data-management'>
+                      <a>Data Management</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='#'>Business Intelligence</a>
+                    <Link href='/business-intelligence'>
+                      <a>Business Intelligence</a>
+                    </Link>
                   </li>
-                  <li>
-                    <a href='#'>EnterPrise Data Platform</a>
-                  </li>
+
                   <li>
                     <Link href='/quality-policy'>
                       <a>Quality Policy</a>
