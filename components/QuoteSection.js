@@ -1,21 +1,24 @@
 import Image from 'next/image';
 import React from 'react';
+import Zoom from 'react-reveal/Zoom';
 
 const QuoteSection = () => {
   return (
     <div className='counter-area pt-100 pb-70'>
-      <div className='container'>
-        <div className='row'>
-          <div className='fun-quote text-center'>
-            <h1>
-              As the world becomes smarter and smarter, data becomes the key to
-              competitive advantage, meaning a company ability to compete will
-              increasingly be driven by how well it can leverage data, apply
-              analytics, and implement new technologies.
-            </h1>
+      <Zoom bottom>
+        <div className='container'>
+          <div className='row'>
+            <div className='fun-quote text-center'>
+              <h1>
+                As the world becomes smarter and smarter, data becomes the key
+                to competitive advantage, meaning a company ability to compete
+                will increasingly be driven by how well it can leverage data,
+                apply analytics, and implement new technologies.
+              </h1>
+            </div>
           </div>
         </div>
-      </div>
+      </Zoom>
 
       <div className='shape-wrap'>
         <div className='shape-1'>

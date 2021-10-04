@@ -1,6 +1,7 @@
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import SectionHeading from './common/SectionHeading';
 
 const OwlCarousel = dynamic(import('react-owl-carousel3'));
@@ -44,15 +45,17 @@ const OurServices = () => {
   return (
     <div className='our-work-area ptb-100'>
       <div className='container'>
-        <SectionHeading
-          sectionTitle='Data consulting and development services to power your business'
-          sectionText=' A big data consulting and development company with more than a
+        <Fade top>
+          <SectionHeading
+            sectionTitle='Data consulting and development services to power your business'
+            sectionText=' A big data consulting and development company with more than a
             decade of experience, we know how to make your big data smart.
             Unlock new revenue streams, faster time to market, and competitive
             differentiation by letting your business, not IT, know how to
             discover and interpret data from sources as disparate as internal
             systems.'
-        />
+          />
+        </Fade>
 
         {display ? (
           <OwlCarousel

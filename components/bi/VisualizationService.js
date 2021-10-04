@@ -1,4 +1,5 @@
 import React from 'react';
+import Slide from 'react-reveal/Slide';
 
 const VisualizationService = () => {
   return (
@@ -15,52 +16,57 @@ const VisualizationService = () => {
 
         <div className='row align-items-center'>
           <div className='col-lg-6'>
-            <div className='how-its-work-content'>
-              <div className='content-wrap'>
-                <h3>
-                  Improve the visibility of your day-to-day business operations
-                </h3>
-              </div>
+            <Slide left>
+              <div className='how-its-work-content'>
+                <div className='content-wrap'>
+                  <h3>
+                    Improve the visibility of your day-to-day business
+                    operations
+                  </h3>
+                </div>
 
-              <div className='content-wrap'>
-                <h3>Identify failing business processes</h3>
-              </div>
+                <div className='content-wrap'>
+                  <h3>Identify failing business processes</h3>
+                </div>
 
-              <div className='content-wrap'>
-                <h3>Prioritize improvement efforts</h3>
+                <div className='content-wrap'>
+                  <h3>Prioritize improvement efforts</h3>
+                </div>
+                <div className='content-wrap'>
+                  <h3>Shorten business meetings</h3>
+                </div>
+                <div className='content-wrap'>
+                  <h3>Unburden IT teams for value-added activities</h3>
+                </div>
               </div>
-              <div className='content-wrap'>
-                <h3>Shorten business meetings</h3>
-              </div>
-              <div className='content-wrap'>
-                <h3>Unburden IT teams for value-added activities</h3>
-              </div>
-            </div>
+            </Slide>
           </div>
 
           <div className='col-lg-6'>
-            <div className='how-its-work-content'>
-              <div className='content-wrap'>
-                <h3>Discover new market opportunities</h3>
-              </div>
+            <Slide right>
+              <div className='how-its-work-content'>
+                <div className='content-wrap'>
+                  <h3>Discover new market opportunities</h3>
+                </div>
 
-              <div className='content-wrap'>
-                <h3>Predict and act on changing customer behavior</h3>
-              </div>
+                <div className='content-wrap'>
+                  <h3>Predict and act on changing customer behavior</h3>
+                </div>
 
-              <div className='content-wrap'>
-                <h3>Uncover underperforming products or areas</h3>
+                <div className='content-wrap'>
+                  <h3>Uncover underperforming products or areas</h3>
+                </div>
+                <div className='content-wrap'>
+                  <h3>
+                    Understand the source of problems to prevent them from
+                    reoccurring
+                  </h3>
+                </div>
+                <div className='content-wrap'>
+                  <h3>Price your products better</h3>
+                </div>
               </div>
-              <div className='content-wrap'>
-                <h3>
-                  Understand the source of problems to prevent them from
-                  reoccurring
-                </h3>
-              </div>
-              <div className='content-wrap'>
-                <h3>Price your products better</h3>
-              </div>
-            </div>
+            </Slide>
           </div>
         </div>
       </div>
