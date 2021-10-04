@@ -1,5 +1,6 @@
 import BiSection from '../components/bi/BiSection';
 import DataViSection from '../components/bi/DataViSection';
+import VisualizationService from '../components/bi/VisualizationService';
 import GetInTouch from '../components/common/GetInTouch';
 import PageBanner from '../components/common/PageBanner';
 
@@ -15,6 +16,7 @@ export default function BusinessIntelligence() {
       />
       <BiSection />
       <DataViSection />
+      <VisualizationService />
       <GetInTouch />
     </>
   );
