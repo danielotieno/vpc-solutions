@@ -3251,12 +3251,8 @@ Page Title Area Style
   background-image: url(/img/management-bg.jpg);
 }
 
-.page-title-area.bg-3 {
-  background-image: url(/img/page-banner-bg3.jpg);
-}
-
-.page-title-area.bg-4 {
-  background-image: url(/img/page-banner-bg4.jpg);
+.page-title-area.bi-bg {
+  background-image: url(/img/bi-bg.jpg);
 }
 
 .page-title-area .page-title-content h2 {
@@ -5847,15 +5843,15 @@ Doctors Area Four Style
   transition: all 0.5s;
 }
 
-.ours-doctors-area .doctors-img {
-  background-image: url(/img/home-four/home-four-doctors.jpg);
+.ours-doctors-area .bi-section1 {
+  background-image: url(/img/bi-section1.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
 }
 
-.ours-doctors-area .doctors-img.about {
+.ours-doctors-area .bi-section1.about {
   background-image: url(/img/home-six/home-six-about1.jpg);
 }
 
