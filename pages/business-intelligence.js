@@ -1,4 +1,5 @@
 import BiSection from '../components/bi/BiSection';
+import DataViSection from '../components/bi/DataViSection';
 import GetInTouch from '../components/common/GetInTouch';
 import PageBanner from '../components/common/PageBanner';
 
@@ -13,6 +14,7 @@ export default function BusinessIntelligence() {
         imgClass='bi-bg'
       />
       <BiSection />
+      <DataViSection />
       <GetInTouch />
     </>
   );

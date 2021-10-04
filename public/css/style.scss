@@ -5061,14 +5061,23 @@ Doctors Area Four Style
     }
   }
   .bi-section1 {
-    background-image: url(/img/bi-section1.png);
+    background-image: url(/img/bi-section.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    width: 950px;
     &.about {
       background-image: url(/img/home-six/home-six-about1.jpg);
     }
+  }
+  .bi-section-2 {
+    background-image: url(/img/bi-section-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 679px;
   }
   .shape {
     position: absolute;
