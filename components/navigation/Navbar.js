@@ -115,7 +115,7 @@ const Navbar = () => {
                       <li className='nav-item'>
                         <Link href='/quality-policy' activeClassName='active'>
                           <a onClick={toggleNavbar} className='nav-link'>
-                            ISO
+                            Certification
                           </a>
                         </Link>
                       </li>
