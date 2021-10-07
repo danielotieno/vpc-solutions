@@ -13,7 +13,7 @@ const IsoDetails = () => {
         imgClass='iso-bg'
       />
 
-      <div className='doctors-details-area ptb-100'>
+      <div className='ptb-100'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-4'>
