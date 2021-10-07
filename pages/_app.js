@@ -1,3 +1,4 @@
+import SEO from '@bradgarropy/next-seo';
 import { useEffect } from 'react';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import Layout from '../components/navigation/Layout';
@@ -17,6 +18,11 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <Layout>
+      <SEO
+        title='Value Proposition Consulting'
+        description='We are a software development and consulting company that creates and transforms products and enterprises to drive growth.'
+      />
+
       <Component {...pageProps} />
     </Layout>
   );

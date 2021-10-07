@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@bradgarropy/next-seo": "^1.2.0",
     "@hookform/resolvers": "^2.8.0",
     "axios": "^0.21.4",
     "next": "11.0.1",
