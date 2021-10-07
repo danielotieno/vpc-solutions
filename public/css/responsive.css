@@ -699,17 +699,17 @@
     margin-top: 0;
     margin-bottom: 30px;
   }
-  .ours-doctors-area .doctors-content {
+  .bi-area .bi-content {
     margin-right: 0;
     padding-bottom: 30px;
   }
-  .ours-doctors-area .doctors-content h2 {
+  .bi-area .bi-content h2 {
     font-size: 25px;
   }
-  .ours-doctors-area .col-lg-6.pr-0 {
+  .bi-area .col-lg-6.pr-0 {
     margin-right: 15px !important;
   }
-  .ours-doctors-area .iso-img {
+  .bi-area .iso-img {
     height: 300px;
   }
   .main-banner-area-five {
@@ -1020,9 +1020,6 @@
   .nav-area.four .navbar-area .navbar-toggler .icon-bar {
     background: #25245e;
   }
-  .nav-area.five .navbar-area .navbar-toggler .icon-bar {
-    background: #25245e;
-  }
   .header-area .top-header-area {
     text-align: center;
   }
@@ -1069,7 +1066,7 @@
   .about-area.four .container-fluid {
     max-width: 540px;
   }
-  .ours-doctors-area .container-fluid {
+  .bi-area .container-fluid {
     max-width: 540px;
   }
   .counter-area.two .single-counter {
@@ -1616,24 +1613,24 @@
     margin-top: 0;
     margin-bottom: 30px;
   }
-  .ours-doctors-area {
+  .bi-area {
     padding-bottom: 50px;
   }
-  .ours-doctors-area .container-fluid {
+  .bi-area .container-fluid {
     max-width: 720px;
   }
-  .ours-doctors-area .doctors-content {
+  .bi-area .bi-content {
     padding-bottom: 30px;
     margin-right: 0;
     max-width: unset;
   }
-  .ours-doctors-area .doctors-content h2 {
+  .bi-area .bi-content h2 {
     font-size: 25px;
   }
-  .ours-doctors-area .col-lg-6.pr-0 {
+  .bi-area .col-lg-6.pr-0 {
     margin-right: 15px !important;
   }
-  .ours-doctors-area .iso-img {
+  .bi-area .iso-img {
     height: 300px;
   }
   .main-banner-area-five {
@@ -2113,7 +2110,7 @@
   .about-area.four .about-content {
     margin-left: 0;
   }
-  .ours-doctors-area .doctors-content {
+  .bi-area .bi-content {
     max-width: 455px;
     margin-right: 0;
   }
@@ -2317,7 +2314,7 @@
   .about-area.four .about-content {
     max-width: 635px;
   }
-  .ours-doctors-area .doctors-content {
+  .bi-area .bi-content {
     max-width: 600px;
   }
   .main-banner-area-five .banner-text {

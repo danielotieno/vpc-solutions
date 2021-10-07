@@ -14,7 +14,7 @@ const alertContent = () => {
     title: 'Congratulations!',
     text: 'Your message has been successfully submitted',
     icon: 'success',
-    timer: 2000,
+    timer: 3000,
     timerProgressBar: true,
     showConfirmButton: false,
   });

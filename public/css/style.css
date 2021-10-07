@@ -737,53 +737,6 @@ Nav Area Style
   color: #234185;
 }
 
-.nav-area.five .navbar-area .main-nav {
-  border-top: 1px dotted #b1b9ba;
-  border-bottom: 1px dotted #b1b9ba;
-  background-color: #eff7f8;
-}
-
-.nav-area.five .navbar-area .main-nav nav .navbar-nav .nav-item a {
-  color: #001430;
-}
-
-.nav-area.five .navbar-area .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #234185;
-}
-
-.nav-area.five .navbar-area .main-nav nav .navbar-nav .nav-item a.active {
-  color: #234185;
-}
-
-.nav-area.five .navbar-area.is-sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  z-index: 999;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
-  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-          animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  width: 100% !important;
-}
-
-.nav-area.five .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a {
-  color: #001430;
-}
-
-.nav-area.five .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #234185;
-}
-
-.nav-area.five .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a.active {
-  color: #234185;
-}
-
 /* Navbar toggler */
 .navbar-toggler {
   border: none;
@@ -5784,38 +5737,38 @@ About Area Four Style
 }
 
 /*
-Doctors Area Four Style
+BI Area Four Style
 ======================================================*/
-.ours-doctors-area {
+.bi-area {
   background-color: #e6f7fc;
   position: relative;
   z-index: 1;
 }
 
-.ours-doctors-area .doctors-content {
+.bi-area .bi-content {
   max-width: 570px;
   margin-left: auto;
   margin-right: 30px;
 }
 
-.ours-doctors-area .doctors-content {
+.bi-area .bi-content {
   max-width: 510px;
   margin-left: auto;
   margin-right: 30px;
 }
 
-.ours-doctors-area .doctors-content h2 {
+.bi-area .bi-content h2 {
   font-size: 40px;
   margin-bottom: 20px;
 }
 
-.ours-doctors-area .doctors-content ul {
+.bi-area .bi-content ul {
   margin-bottom: 35px;
   list-style-type: none;
   padding: 0;
 }
 
-.ours-doctors-area .doctors-content ul li {
+.bi-area .bi-content ul li {
   margin-bottom: 15px;
   font-weight: 600;
   font-size: 15px;
@@ -5824,11 +5777,11 @@ Doctors Area Four Style
   padding-left: 40px;
 }
 
-.ours-doctors-area .doctors-content ul li:last-child {
+.bi-area .bi-content ul li:last-child {
   margin-bottom: 0;
 }
 
-.ours-doctors-area .doctors-content ul li i {
+.bi-area .bi-content ul li i {
   position: absolute;
   top: -3px;
   left: 0;
@@ -5843,7 +5796,7 @@ Doctors Area Four Style
   transition: all 0.5s;
 }
 
-.ours-doctors-area .bi-section1 {
+.bi-area .bi-section1 {
   background-image: url(/img/bi-section.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -5852,11 +5805,11 @@ Doctors Area Four Style
   width: 950px;
 }
 
-.ours-doctors-area .bi-section1.about {
+.bi-area .bi-section1.about {
   background-image: url(/img/home-six/home-six-about1.jpg);
 }
 
-.ours-doctors-area .bi-section-2 {
+.bi-area .bi-section-2 {
   background-image: url(/img/bi-section-2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -5865,7 +5818,7 @@ Doctors Area Four Style
   width: 679px;
 }
 
-.ours-doctors-area .shape {
+.bi-area .shape {
   position: absolute;
   top: 0;
   left: 30px;

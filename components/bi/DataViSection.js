@@ -2,7 +2,7 @@ import React from 'react';
 
 const DataViSection = () => {
   return (
-    <div className='ours-doctors-area four'>
+    <div className='bi-area four'>
       <div className='container-fluid'>
         <div className='row'>
           <div className='col-lg-6 pl-0'>
@@ -10,7 +10,7 @@ const DataViSection = () => {
           </div>
 
           <div className='col-lg-6'>
-            <div className='doctors-content ptb-100'>
+            <div className='bi-content ptb-100'>
               <h2>
                 Data visualization services tailored to your business needs
               </h2>

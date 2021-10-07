@@ -671,60 +671,6 @@ Nav Area Style
       }
     }
   }
-  &.five {
-    .navbar-area {
-      .main-nav {
-        border-top: 1px dotted #b1b9ba;
-        border-bottom: 1px dotted #b1b9ba;
-        background-color: #eff7f8;
-        nav {
-          .navbar-nav {
-            .nav-item {
-              a {
-                color: $heading-color;
-                &:hover {
-                  color: $main-color;
-                }
-                &.active {
-                  color: $main-color;
-                }
-              }
-            }
-          }
-        }
-      }
-      &.is-sticky {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-        z-index: 999;
-        background-color: $white-color;
-        box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
-        animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-        transition: all 0.5s;
-        width: 100% !important;
-        .main-nav {
-          nav {
-            .navbar-nav {
-              .nav-item {
-                a {
-                  color: $heading-color;
-                  &:hover {
-                    color: $main-color;
-                  }
-                  &.active {
-                    color: $main-color;
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
 }
 /* Navbar toggler */
 .navbar-toggler {
@@ -5010,18 +4956,18 @@ About Area Four Style
 }
 
 /*
-Doctors Area Four Style
+BI Area Four Style
 ======================================================*/
-.ours-doctors-area {
+.bi-area {
   background-color: #e6f7fc;
   position: relative;
   z-index: 1;
-  .doctors-content {
+  .bi-content {
     max-width: 570px;
     margin-left: auto;
     margin-right: 30px;
   }
-  .doctors-content {
+  .bi-content {
     max-width: 510px;
     margin-left: auto;
     margin-right: 30px;
