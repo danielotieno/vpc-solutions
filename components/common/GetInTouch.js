@@ -5,21 +5,13 @@ const GetInTouch = () => {
   return (
     <div className='subscribe-area'>
       <div className='container'>
-        <div className='row align-items-center'>
-          <div className='col-lg-6'>
+        <div className='row align-items-center text-center'>
+          <div className='col-lg-12'>
             <h2>Interested To Work With Us</h2>
-            <p>
-              We would be happy to answer your questions{' '}
-              <strong>&#8594;</strong>{' '}
-            </p>
-          </div>
-
-          <div className='col-lg-6'>
-            <div className='newsletter-form'>
-              <Link href='/contact-us' passHref>
-                <button className='default-btn'>Get In Touch</button>
-              </Link>
-            </div>
+            <p>We would be happy to answer your questions </p>
+            <Link href='/contact-us' passHref>
+              <button className='default-btn'>Get In Touch</button>
+            </Link>
           </div>
         </div>
       </div>

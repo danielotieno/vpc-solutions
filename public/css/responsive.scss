@@ -220,48 +220,7 @@
       font-size: 15px;
     }
   }
-  .appointment-here-form {
-    padding: 50px 20px;
-    h2 {
-      font-size: 25px;
-      margin-bottom: 30px;
-    }
-    .shape {
-      display: none;
-    }
-  }
-  .emergency-area {
-    padding-bottom: 50px;
-    .shape {
-      display: none;
-    }
-    .container-fluid {
-      max-width: 540px;
-    }
-    .col-lg-6.pr-0 {
-      padding-right: 15px !important;
-    }
-  }
-  .emergency-content {
-    max-width: unset;
-    padding-bottom: 20px;
-    h2 {
-      font-size: 25px;
-      margin-bottom: 25px;
-    }
-    ul {
-      li {
-        margin-right: 15px;
-        margin-bottom: 10px;
-        &:last-child {
-          margin-bottom: 0;
-        }
-      }
-    }
-  }
-  .emergency-img {
-    height: 300px;
-  }
+
   .single-client {
     padding: 20px;
     margin-left: 0;
@@ -281,22 +240,6 @@
     p {
       font-weight: 500;
       margin-bottom: 30px;
-    }
-    .newsletter-form {
-      .default-btn {
-        position: unset;
-        margin: 30px auto 0;
-        height: 50px;
-        &::before {
-          display: none;
-        }
-        &::after {
-          display: none;
-        }
-      }
-      .form-control {
-        height: 50px;
-      }
     }
   }
   .single-widget {
@@ -384,17 +327,7 @@
       left: 0;
     }
   }
-  .make-appointment-area {
-    .make-appointment-content {
-      h2 {
-        margin-bottom: 18px;
-        font-size: 24px;
-      }
-    }
-    .contact-form {
-      padding: 20px;
-    }
-  }
+
   .contact-img {
     margin-top: 30px;
   }
@@ -459,19 +392,7 @@
       }
     }
   }
-  .recover-password-area {
-    .contact-form-action {
-      .form-heading {
-        h3 {
-          font-size: 25px;
-          margin-bottom: 10px;
-        }
-      }
-      .now-register {
-        float: unset;
-      }
-    }
-  }
+
   .services-page-one {
     margin-top: 50px !important;
     &::before {
@@ -510,7 +431,7 @@
   .iso-sidebar .availability {
     padding: 20px;
   }
-  .doctors-detailss .doctors-history {
+  .iso-detailss .iso-history {
     margin-top: 30px;
     padding: 20px;
     h2 {
@@ -947,21 +868,6 @@
           }
         }
       }
-      .newsletter-form {
-        margin-top: 35px;
-        .input-newsletter {
-          height: 55px;
-          padding-left: 13px;
-          font-size: 15px;
-        }
-        button {
-          position: relative;
-          height: auto;
-          padding: 14px 30px;
-          font-size: 14px;
-          margin-top: 15px;
-        }
-      }
     }
   }
   .error-area {
@@ -1236,15 +1142,7 @@
     margin-right: 30px;
     margin-bottom: 0;
   }
-  .subscribe-area {
-    .newsletter-form {
-      .default-btn {
-        position: absolute;
-        margin: unset;
-        height: 50px;
-      }
-    }
-  }
+
   .default-btn.active {
     margin-left: 30px;
   }

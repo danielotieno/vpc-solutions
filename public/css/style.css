@@ -1463,25 +1463,6 @@ Subscribe Area Style
   font-weight: 600;
 }
 
-.subscribe-area .newsletter-form {
-  height: 60px;
-  background-color: #f39c12;
-  position: relative;
-}
-
-.subscribe-area .newsletter-form .default-btn {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 60px;
-  font-weight: 600;
-}
-
-.subscribe-area #validator-newsletter {
-  margin-top: 10px;
-  color: #dc3545;
-}
-
 /*
 Footer Top Area Style
 ======================================================*/
@@ -2864,65 +2845,6 @@ Coming Soon Area Style
   top: -10px;
   font-size: 70px;
   color: #ffffff;
-}
-
-.coming-soon-area .coming-soon-content .newsletter-form {
-  position: relative;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-}
-
-.coming-soon-area .coming-soon-content .newsletter-form .input-newsletter {
-  display: block;
-  width: 100%;
-  height: 60px;
-  border: none;
-  padding-left: 15px;
-  outline: 0;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  border-radius: 10px;
-}
-
-.coming-soon-area .coming-soon-content .newsletter-form button {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 60px;
-  padding: 0 30px;
-  text-transform: uppercase;
-  outline: 0;
-  color: #ffffff;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  font-weight: 500;
-  font-size: 15px;
-  cursor: pointer;
-}
-
-.coming-soon-area .coming-soon-content .newsletter-form button::after {
-  border-radius: 0;
-}
-
-.coming-soon-area .coming-soon-content .newsletter-form button::before {
-  border-radius: 0;
-}
-
-.coming-soon-area .coming-soon-content .newsletter-form button:hover {
-  color: #ffffff;
-  background-color: #234185;
-}
-
-.coming-soon-area .coming-soon-content .newsletter-form #validator-newsletter {
-  color: #ffffff;
-  font-size: 14px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -30px;
-  margin: 0 auto;
 }
 
 .coming-soon-area .coming-soon-content ul {
