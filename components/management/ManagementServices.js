@@ -6,19 +6,18 @@ import {
   AccordionItemHeading,
   AccordionItemPanel,
 } from 'react-accessible-accordion';
-
 import { dataServices } from '../constants/dataServices';
-
+import { dataServicesTwo } from '../constants/dataServiceTwo';
 const ManagementServices = () => {
   return (
     <>
       <div className='row align-items-center pt-100'>
-        {dataServices.map((index, item) => {
-          return (
-            <div key={index} className='col-lg-6'>
-              <div className='faq-accordion'>
-                <Accordion allowZeroExpanded>
-                  <AccordionItem uuid={item.uuid}>
+        <div className='col-lg-6'>
+          <div className='faq-accordion'>
+            <Accordion allowZeroExpanded>
+              {dataServices.map((item, index) => {
+                return (
+                  <AccordionItem key={index} uuid={item.uuid}>
                     <AccordionItemHeading>
                       <AccordionItemButton>
                         <span>{item.title}</span>
@@ -28,11 +27,31 @@ const ManagementServices = () => {
                       <p>{item.description}</p>
                     </AccordionItemPanel>
                   </AccordionItem>
-                </Accordion>
-              </div>
-            </div>
-          );
-        })}
+                );
+              })}
+            </Accordion>
+          </div>
+        </div>
+        <div className='col-lg-6'>
+          <div className='faq-accordion'>
+            <Accordion allowZeroExpanded>
+              {dataServicesTwo.map((item, index) => {
+                return (
+                  <AccordionItem key={index} uuid={item.uuid}>
+                    <AccordionItemHeading>
+                      <AccordionItemButton>
+                        <span>{item.title}</span>
+                      </AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+                      <p>{item.description}</p>
+                    </AccordionItemPanel>
+                  </AccordionItem>
+                );
+              })}
+            </Accordion>
+          </div>
+        </div>
       </div>
     </>
   );
