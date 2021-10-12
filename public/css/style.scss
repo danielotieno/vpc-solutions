@@ -1955,6 +1955,20 @@ FAQ Area CSS
         outline: 0;
       }
     }
+    .management-faq-btn {
+      background-color: $main-color;
+      color: $white-color;
+      padding: 20px 25px;
+      text-decoration: none;
+      position: relative;
+      display: block;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 5px;
+      &:focus {
+        outline: 0;
+      }
+    }
     .accordion__panel {
       padding: 25px 30px;
       border-top: 1px solid #eee;
