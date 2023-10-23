@@ -7,7 +7,7 @@ const GetInTouch = () => {
       <div className='container'>
         <div className='row align-items-center text-center'>
           <div className='col-lg-12'>
-            <h2>Interested To Work With Us</h2>
+            <h2>Interested To Work With Us?</h2>
             <p>We would be happy to answer your questions </p>
             <Link href='/contact-us' passHref>
               <button className='default-btn'>Get In Touch</button>
