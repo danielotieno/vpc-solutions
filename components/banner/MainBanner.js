@@ -46,8 +46,10 @@ const MainBanner = () => {
                               <p>{item.description}</p>
 
                               <div className='slider-btn'>
-                                <Link href='/contact-us'>
-                                  <a className='default-btn'>Get In Touch</a>
+                                <Link
+                                  className='default-btn'
+                                  href='/contact-us'>
+                                  Get In Touch
                                 </Link>
                               </div>
                             </div>

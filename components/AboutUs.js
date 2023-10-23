@@ -83,8 +83,8 @@ const AboutUs = () => {
                 </li>
               </ul>
 
-              <Link href='/about-us'>
-                <a className='default-btn'>About Us</a>
+              <Link className='default-btn' href='/about-us'>
+                About Us
               </Link>
             </div>
           </div>

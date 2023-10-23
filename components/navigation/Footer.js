@@ -12,14 +12,14 @@ const Footer = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-widget'>
                 <Link href='/'>
-                  <a>
+
                     <Image
                       src={Logo}
                       alt='VPC Solutions Logo'
                       width={120}
                       height={50}
                     />
-                  </a>
+
                 </Link>
 
                 <p>
@@ -59,18 +59,18 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link href='/data-management'>
-                      <a>Data Management</a>
+                      Data Management
                     </Link>
                   </li>
                   <li>
                     <Link href='/business-intelligence'>
-                      <a>Business Intelligence</a>
+                      Business Intelligence
                     </Link>
                   </li>
 
                   <li>
                     <Link href='/quality-policy'>
-                      <a>Quality Policy</a>
+                      Quality Policy
                     </Link>
                   </li>
                 </ul>

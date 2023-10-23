@@ -1,4 +1,4 @@
-import SEO from '@bradgarropy/next-seo';
+import { NextSeo } from 'next-seo';
 import React from 'react';
 import PageBanner from '../components/common/PageBanner';
 import ContactForm from '../components/contact/ContactForm';
@@ -7,7 +7,7 @@ import ContactInfo from '../components/contact/ContactInfo';
 const ContactUs = () => {
   return (
     <>
-      <SEO
+      <NextSeo
         title='Contact Us'
         description='We are a software development and consulting company that creates and transforms products and enterprises to drive growth.'
       />

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import Logo from '../../public/img/logo.png';
-import Link from '../../utils/ActiveLink';
+import ActiveLink from '../../utils/ActiveLink';
 
 const Navbar = () => {
   const [menu, setMenu] = React.useState(true);
@@ -37,7 +37,7 @@ const Navbar = () => {
             <div className='main-nav'>
               <nav className='navbar navbar-expand-md navbar-light'>
                 <div className='container'>
-                  <Link href='/'>
+                  <ActiveLink href='/'>
                     <a onClick={toggleNavbar} className='navbar-brand'>
                       <Image
                         src={Logo}
@@ -46,7 +46,7 @@ const Navbar = () => {
                         height={50}
                       />
                     </a>
-                  </Link>
+                  </ActiveLink>
 
                   <button
                     onClick={toggleNavbar}
@@ -65,67 +65,67 @@ const Navbar = () => {
                   <div className={classOne} id='navbarSupportedContent'>
                     <ul className='navbar-nav m-auto'>
                       <li className='nav-item'>
-                        <Link href='/'>
+                        <ActiveLink href='/'>
                           <a onClick={toggleNavbar} className='nav-link'>
                             Home
                           </a>
-                        </Link>
+                        </ActiveLink>
                       </li>
 
                       <li className='nav-item'>
-                        <Link href='/about-us' activeClassName='active'>
+                        <ActiveLink href='/about-us' activeClassName='active'>
                           <a onClick={toggleNavbar} className='nav-link'>
                             About
                           </a>
-                        </Link>
+                        </ActiveLink>
                       </li>
 
                       <li className='nav-item'>
-                        <Link href='/#'>
+                        <ActiveLink href='/#'>
                           <a
                             onClick={(e) => e.preventDefault()}
                             className='nav-link'>
                             Services <i className='bx bx-plus'></i>
                           </a>
-                        </Link>
+                        </ActiveLink>
 
                         <ul className='dropdown-menu'>
                           <li className='nav-item'>
-                            <Link
+                            <ActiveLink
                               href='/data-management'
                               activeClassName='active'>
                               <a onClick={toggleNavbar} className='nav-link'>
                                 Data Management
                               </a>
-                            </Link>
+                            </ActiveLink>
                           </li>
 
                           <li className='nav-item'>
-                            <Link
+                            <ActiveLink
                               href='/business-intelligence'
                               activeClassName='active'>
                               <a onClick={toggleNavbar} className='nav-link'>
                                 Business Intelligence
                               </a>
-                            </Link>
+                            </ActiveLink>
                           </li>
                         </ul>
                       </li>
 
                       <li className='nav-item'>
-                        <Link href='/quality-policy' activeClassName='active'>
+                        <ActiveLink href='/quality-policy' activeClassName='active'>
                           <a onClick={toggleNavbar} className='nav-link'>
                             Certification
                           </a>
-                        </Link>
+                        </ActiveLink>
                       </li>
                     </ul>
 
                     <div className='others-option'>
                       <div className='subscribe'>
-                        <Link href='/contact-us'>
+                        <ActiveLink href='/contact-us'>
                           <a className='default-btn'>Contact Us</a>
-                        </Link>
+                        </ActiveLink>
                       </div>
                     </div>
                   </div>
