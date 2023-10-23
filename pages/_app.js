@@ -3,17 +3,18 @@ import { useEffect } from 'react';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import Layout from '../components/navigation/Layout';
 import '../node_modules/react-modal-video/css/modal-video.min.css';
-import '../public/css/animate.css';
-import '../public/css/bootstrap.min.css';
-import '../public/css/boxicons.min.css';
-import '../public/css/flaticon.css';
-import '../public/css/meanmenu.css';
-import '../public/css/responsive.css';
-import '../public/css/style.css';
+import '../public/styles/animate.css';
+import '../public/styles/bootstrap.min.css';
+import '../public/styles/boxicons.min.css';
+import '../public/styles/flaticon.css';
+import '../public/styles/meanmenu.css';
+import '../public/styles/responsive.css';
+import '../public/styles/style.css';
+
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    import('../public/css/bootstrap.bundle.min.js');
+    import('../public/styles/bootstrap.bundle.min.js');
   }, []);
 
   return (
